@@ -1,0 +1,42 @@
+{
+  "category": "Coffee",
+  "subtitle": "Our Coffee",
+  
+  "items": [
+    {
+      "name": "Pancakes",
+      "price": "$12.50",
+      "description": "Fresh brewed coffee and steamed milk",
+      "original_price": null,
+      "badge": null
+    },
+    {
+      "name": "Toasted Waffle",
+      "price": "$12.00",
+      "description": "Brewed coffee and steamed milk",
+      "original_price": "$16.50",
+      "badge": null
+    },
+    {
+      "name": "Fried Chips",
+      "price": "$15.0",
+      "description": "Rich Milk and Foam",
+      "original_price": null,
+      "badge": "Recommend"
+    },
+    {
+      "name": "Pancakes",
+      "price": "$12.50",
+      "description": "Fresh brewed coffee and steamed milk",
+      "original_price": null,
+      "badge": null
+    },
+    {
+      "name": "Banana Cakes",
+      "price": "$18.0",
+      "description": "Rich Milk and Foam",
+      "original_price": null,
+      "badge": null
+    }
+  ]
+}
