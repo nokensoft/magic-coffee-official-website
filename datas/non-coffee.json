@@ -1,0 +1,41 @@
+{
+    "category": "Non Coffee",
+    "subtitle": "Non Coffee (Hot/Ice)",
+    "items": [
+        {
+            "name": "Chocolate",
+            "price": "23.000 / 25.000",
+            "description": "Minuman coklat manis dengan rasa creamy dan aroma coklat premium.",
+            "original_price": null,
+            "badge": null
+        },
+        {
+            "name": "Matcha",
+            "price": "23.000 / 25.000",
+            "description": "Matcha latte lembut dengan rasa khas green tea yang earthy dan wangi.",
+            "original_price": null,
+            "badge": null
+        },
+        {
+            "name": "Taro",
+            "price": "23.000 / 25.000",
+            "description": "Minuman taro manis-ungu dengan tekstur creamy dan rasa yang lembut.",
+            "original_price": null,
+            "badge": null
+        },
+        {
+            "name": "Thai tea",
+            "price": "23.000 / 25.000",
+            "description": "Teh Thailand khas dengan rasa manis dan aroma rempah yang kuat.",
+            "original_price": null,
+            "badge": null
+        },
+        {
+            "name": "Red velvet",
+            "price": "23.000 / 25.000",
+            "description": "Red velvet latte dengan rasa manis lembut dan warna merah khas.",
+            "original_price": null,
+            "badge": null
+        }
+    ]
+}

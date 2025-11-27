@@ -1,0 +1,41 @@
+{
+    "category": "Signature Drinks",
+    "subtitle": "Signature Drinks (Hot/Ice)",
+    "items": [
+        {
+            "name": "Milk Magic",
+            "price": "25.000 / 30.000",
+            "description": "Minuman creamy dengan racikan susu spesial bertaste lembut dan manis seimbang.",
+            "original_price": null,
+            "badge": null
+        },
+        {
+            "name": "Kali kabur",
+            "price": "25.000 / 30.000",
+            "description": "Signature drink dengan rasa unik khas lokal, manis segar dengan aroma khas.",
+            "original_price": null,
+            "badge": null
+        },
+        {
+            "name": "Koat",
+            "price": "25.000 / 30.000",
+            "description": "Perpaduan susu dan sirup rempah khas Papua yang memberikan sensasi hangat & wangi.",
+            "original_price": null,
+            "badge": null
+        },
+        {
+            "name": "Mocha latte",
+            "price": "25.000 / 30.000",
+            "description": "Kombinasi espresso dan coklat premium dengan tekstur creamy dan rasa bold manis.",
+            "original_price": null,
+            "badge": null
+        },
+        {
+            "name": "Affogato",
+            "price": "25.000",
+            "description": "Scoop es krim vanilla disiram espresso panas untuk sensasi manis-pahit yang balance.",
+            "original_price": null,
+            "badge": null
+        }
+    ]
+}

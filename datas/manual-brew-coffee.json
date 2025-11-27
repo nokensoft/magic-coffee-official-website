@@ -1,0 +1,27 @@
+{
+    "category": "Manual Brew Coffee",
+    "subtitle": "Manual Brew Coffee",
+    "items": [
+        {
+            "name": "V60",
+            "price": "30.000",
+            "description": "Metode seduh manual dengan filter paper, menghasilkan rasa yang clean dan ringan.",
+            "original_price": null,
+            "badge": null
+        },
+        {
+            "name": "Japanese",
+            "price": "30.000",
+            "description": "Manual brew ala Jepang dengan es, menghasilkan kopi yang lebih segar dan aromatik.",
+            "original_price": null,
+            "badge": null
+        },
+        {
+            "name": "Vietnam drip",
+            "price": "20.000 / 25.000",
+            "description": "Kopi yang diseduh menggunakan dripper Vietnam, rasa kuat dengan karakter kopi pekat.",
+            "original_price": null,
+            "badge": null
+        }
+    ]
+}

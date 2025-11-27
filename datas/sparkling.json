@@ -1,0 +1,48 @@
+{
+  "category": "Sparkling & Others",
+  "subtitle": "Sparkling & Others",
+  "items": [
+    {
+      "name": "Pertalite",
+      "price": "30.000",
+      "description": "Minuman sparkling dengan rasa manis-segar dan warna cerah mencolok.",
+      "original_price": null,
+      "badge": null
+    },
+    {
+      "name": "Kali biru",
+      "price": "30.000",
+      "description": "Minuman berwarna biru dengan rasa buah segar dan sensasi soda ringan.",
+      "original_price": null,
+      "badge": null
+    },
+    {
+      "name": "Magic purple",
+      "price": "30.000",
+      "description": "Minuman ungu dengan rasa fruity dan efek warna menarik saat disajikan.",
+      "original_price": null,
+      "badge": null
+    },
+    {
+      "name": "Orange squash",
+      "price": "20.000",
+      "description": "Minuman jeruk segar dengan soda ringan, manis dan menyegarkan.",
+      "original_price": null,
+      "badge": null
+    },
+    {
+      "name": "Mango squash",
+      "price": "20.000",
+      "description": "Perpaduan mangga manis dan soda yang memberikan kesegaran tropis.",
+      "original_price": null,
+      "badge": null
+    },
+    {
+      "name": "Lime squash",
+      "price": "20.000",
+      "description": "Perasan jeruk nipis segar dengan soda, rasa asam-manis yang menyegarkan.",
+      "original_price": null,
+      "badge": null
+    }
+  ]
+}
