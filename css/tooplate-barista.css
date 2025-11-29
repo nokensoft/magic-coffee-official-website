@@ -1199,3 +1199,60 @@ strong {
   }
 }
 
+/*---------------------------------------
+  GALLERY SLIDER              
+-----------------------------------------*/
+.gallery-slider {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  gap: 20px;
+  padding-bottom: 20px; /* Space for scrollbar if visible */
+  scrollbar-width: none; /* Firefox */
+}
+
+.gallery-slider::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+.gallery-item {
+  flex: 0 0 auto;
+  width: 25%; /* 4 items per row on desktop */
+  scroll-snap-align: start;
+}
+
+@media screen and (max-width: 991px) {
+  .gallery-item {
+    width: 40%; /* 2.5 items per row on tablet */
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .gallery-item {
+    width: 85%; /* 1 item + peek per row on mobile */
+  }
+}
+
+/*---------------------------------------
+  FOOTER MOBILE RESPONSIVE              
+-----------------------------------------*/
+@media screen and (max-width: 991px) {
+  .site-footer .col-lg-4,
+  .site-footer .col-lg-5,
+  .site-footer .col-lg-3 {
+    text-align: center;
+  }
+  
+  .site-footer .d-flex {
+    justify-content: center;
+  }
+  
+  .site-footer .social-icon {
+    justify-content: center;
+  }
+  
+  .site-footer .opening-hours-list li {
+    justify-content: center;
+  }
+}
