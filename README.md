@@ -45,6 +45,7 @@ Tidak menggunakan framework berat seperti React/Vue atau build tools (Webpack, V
 └── (assets lain seperti favicon)
 ```
 
+
 ## Fitur Utama
 
 - Navbar fixed dengan mobile menu hamburger (Alpine.js)
@@ -55,6 +56,22 @@ Tidak menggunakan framework berat seperti React/Vue atau build tools (Webpack, V
 - SEO-friendly lengkap + Open Graph untuk share media sosial
 - Structured Data (JSON-LD) untuk meningkatkan visibilitas di Google
 
+## Lisensi (Open Source)
+
+**MIT License**
+
+Copyright © 2025 Nokensoft
+
+Dengan ini diberikan izin secara gratis kepada setiap orang yang mendapatkan salinan dari source code dan file-file terkait website ini untuk menggunakan, menyalin, memodifikasi, menggabungkan, mempublikasikan, mendistribusikan, mensublisensikan, dan/atau menjual salinan dari source code ini, dengan syarat berikut:
+
+- Pemberitahuan hak cipta di atas dan pemberitahuan izin ini harus disertakan dalam semua salinan atau bagian substansial dari source code ini.
+
+SOURCE CODE INI DISEDIAKAN "SEBAGAIMANA ADANYA", TANPA JAMINAN APAPUN, BAIK TERSIRAT MAUPUN TERSURAT, TERMASUK TETAPI TIDAK TERBATAS PADA JAMINAN DAPAT DIPERDAGANGKAN, KESESUAIAN UNTUK TUJUAN TERTENTU, DAN TIDAK MELANGGAR HAK. DALAM HAL APAPUN, PENGEMBANG ATAU PEMEGANG HAK CIPTA TIDAK BERTANGGUNG JAWAB ATAS KLAIM, KERUGIAN, ATAU TANGGUNG JAWAB LAINNYA, BAIK DALAM TINDAKAN KONTRAK, KERUGIAN, ATAU LAINNYA, YANG TIMBUL DARI, KELUAR DARI, ATAU SEHUBUNGAN DENGAN SOURCE CODE INI ATAU PENGGUNAAN ATAU TRANSAKSI LAIN DALAM SOURCE CODE INI.
+
+> **Catatan penting:**  
+> Lisensi MIT ini hanya berlaku untuk **source code** (HTML, CSS, JavaScript, struktur file, dan aset teknis lainnya).  
+> **Konten kreatif** seperti foto galeri, logo, video, teks deskripsi bisnis, dan aset branding tetap menjadi hak cipta eksklusif **Magic Coffee** dan **Nokensoft**, dan tidak boleh digunakan ulang tanpa izin tertulis.
+
 ## Cara Menjalankan / Deploy
 
 Cukup upload semua file ke hosting statis (GitHub Pages, Netlify, Vercel, Cloudflare Pages, atau hosting biasa).
@@ -62,6 +79,8 @@ Cukup upload semua file ke hosting statis (GitHub Pages, Netlify, Vercel, Cloudf
 Tidak perlu build process – semua asset di-load langsung via CDN atau file lokal.
 
 ## Kontribusi / Update
+
+Kami terbuka untuk kontribusi! Silakan fork repository ini, buat perubahan, dan ajukan Pull Request.
 
 - Untuk menambah menu → edit file `js/menuData.js`
 - Untuk mengganti gambar galeri / slider → ganti file di folder `images/`
