@@ -19,7 +19,8 @@
     <meta property="og:title" content="Magic Coffee Sentani | Kopi Asli Papua Penuh Kehangatan" />
     <meta property="og:description"
         content="Coffee shop santai di Sentani yang menyajikan kopi autentik dari Wamena, Pegunungan Bintang, hingga Paniai. Tempat nongkrong anak muda Papua yang penuh cerita dan kebersamaan." />
-    <meta property="og:image" content="https://nokensoft.github.io/magic-coffee-official-website/images/magic-coffee-cover.png" />
+    <meta property="og:image"
+        content="https://nokensoft.github.io/magic-coffee-official-website/images/magic-coffee-cover.png" />
     <meta property="og:image:alt" content="Magic Coffee Sentani - Kopi Asli Papua dengan Suasana Hangat" />
     <meta property="og:url" content="https://magiccoffee.shop/" />
     <meta property="og:type" content="website" />
@@ -31,7 +32,8 @@
     <meta name="twitter:title" content="Magic Coffee Sentani | Kopi Asli Papua Penuh Kehangatan" />
     <meta name="twitter:description"
         content="Coffee shop santai di Sentani yang menyajikan kopi autentik dari Wamena, Pegunungan Bintang, hingga Paniai. Tempat nongkrong anak muda Papua yang penuh cerita dan kebersamaan." />
-    <meta name="twitter:image" content="https://nokensoft.github.io/magic-coffee-official-website/images/magic-coffee-cover.png" />
+    <meta name="twitter:image"
+        content="https://nokensoft.github.io/magic-coffee-official-website/images/magic-coffee-cover.png" />
     <meta name="twitter:image:alt" content="Magic Coffee Sentani - Kopi Asli Papua dengan Suasana Hangat" />
 
     <!-- JSON-LD Structured Data -->
@@ -143,6 +145,19 @@
 
         .hero-slide.active {
             opacity: 1;
+        }
+
+        /* Hide scrollbar tapi tetap bisa scroll (mobile friendly) */
+        .scrollbar-hide {
+            -ms-overflow-style: none;
+            /* IE and Edge */
+            scrollbar-width: none;
+            /* Firefox */
+        }
+
+        .scrollbar-hide::-webkit-scrollbar {
+            display: none;
+            /* Chrome, Safari, Opera */
         }
     </style>
 </head>
@@ -328,27 +343,28 @@
 
 
 
-<!-- Menu Section -->
-<section id="menu" class="py-20 bg-gray-800">
-  <div class="container mx-auto px-6">
-    <div class="text-center mb-12">
-      <p class="text-green-400 uppercase tracking-wider">Pilihan Kami</p>
-      <h2 class="text-4xl font-bold">Menu Tersedia</h2>
-    </div>
+    <!-- Menu Section -->
+    <section id="menu" class="py-20 bg-gray-800">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <p class="text-green-400 uppercase tracking-wider">Pilihan Kami</p>
+                <h2 class="text-4xl font-bold">Menu Tersedia</h2>
+            </div>
 
-    <!-- Tombol Filter Kategori -->
-    <div class="flex flex-wrap justify-center gap-4 mb-12">
-      <!-- Tombol kategori akan di-inject oleh JS -->
-      <div id="category-buttons"></div>
-    </div>
+            <!-- Tombol Filter Kategori - Mobile Friendly (Scrollable Horizontal) -->
+            <div class="mb-12 overflow-x-auto scrollbar-hide">
+                <div class="flex gap-3 md:gap-4 justify-start md:justify-center pb-4">
+                    <div id="category-buttons" class="inline-flex gap-3 md:gap-4"></div>
+                </div>
+            </div>
 
-    <!-- Container Menu -->
-    <div id="menu-container" class="flex flex-col items-center gap-16"></div>
-    
-      <!-- Menu akan dimuat di sini -->
-    </div>
-  </div>
-</section>
+            <!-- Container Menu -->
+            <div id="menu-container" class="flex flex-col items-center gap-16"></div>
+
+            <!-- Menu akan dimuat di sini -->
+        </div>
+        </div>
+    </section>
 
 
 
@@ -602,41 +618,41 @@
 
 
 
-<script src="js/menuData.js"></script>
+    <script src="js/menuData.js"></script>
 
-<script>
-  let allMenuData = [];
+    <script>
+        let allMenuData = [];
 
-  function renderMenuItems(filteredData) {
-    const container = document.getElementById('menu-container');
-    container.innerHTML = '';
+        function renderMenuItems(filteredData) {
+            const container = document.getElementById('menu-container');
+            container.innerHTML = '';
 
-    if (filteredData.length === 0) {
-      container.innerHTML = `<div class="col-span-2 text-center text-xl text-gray-400 py-20">Tidak ada menu dalam kategori ini.</div>`;
-      return;
-    }
+            if (filteredData.length === 0) {
+                container.innerHTML = `<div class="col-span-2 text-center text-xl text-gray-400 py-20">Tidak ada menu dalam kategori ini.</div>`;
+                return;
+            }
 
-    filteredData.forEach(data => {
-      let itemsHTML = '';
+            filteredData.forEach(data => {
+                let itemsHTML = '';
 
-      data.items.forEach(item => {
-        const badge = item.badge
-          ? `<span class="ml-3 px-3 py-1 bg-yellow-600 text-black text-xs font-bold rounded-full">${item.badge}</span>`
-          : '';
+                data.items.forEach(item => {
+                    const badge = item.badge
+                        ? `<span class="ml-3 px-3 py-1 bg-yellow-600 text-black text-xs font-bold rounded-full">${item.badge}</span>`
+                        : '';
 
-        const imageDesktopHTML = item.image
-          ? `<img src="${item.image}" alt="${item.name}" class="w-32 h-32 object-cover rounded-xl shadow-xl flex-shrink-0">`
-          : `<div class="w-32 h-32 bg-gray-700 rounded-xl flex-shrink-0"></div>`;
+                    const imageDesktopHTML = item.image
+                        ? `<img src="${item.image}" alt="${item.name}" class="w-32 h-32 object-cover rounded-xl shadow-xl flex-shrink-0">`
+                        : `<div class="w-32 h-32 bg-gray-700 rounded-xl flex-shrink-0"></div>`;
 
-        const imageMobileHTML = item.image
-          ? `<img src="${item.image}" alt="${item.name}" class="w-full h-64 object-cover rounded-xl shadow-xl">`
-          : `<div class="w-full h-64 bg-gray-700 rounded-xl"></div>`;
+                    const imageMobileHTML = item.image
+                        ? `<img src="${item.image}" alt="${item.name}" class="w-full h-64 object-cover rounded-xl shadow-xl">`
+                        : `<div class="w-full h-64 bg-gray-700 rounded-xl"></div>`;
 
-        let priceHTML = item.original_price
-          ? `<del class="text-gray-500 mr-3">Rp ${item.original_price}</del><strong class="text-2xl">Rp ${item.price}</strong>`
-          : `<strong class="text-2xl">Rp ${item.price}</strong>`;
+                    let priceHTML = item.original_price
+                        ? `<del class="text-gray-500 mr-3">Rp ${item.original_price}</del><strong class="text-2xl">Rp ${item.price}</strong>`
+                        : `<strong class="text-2xl">Rp ${item.price}</strong>`;
 
-        itemsHTML += `
+                    itemsHTML += `
           <div class="bg-gray-800/60 backdrop-blur-sm rounded-2xl p-6 md:p-8 shadow-lg hover:shadow-xl transition-shadow">
             <div class="block md:hidden mb-6">${imageMobileHTML}</div>
             <div class="flex flex-col md:flex-row items-start gap-6 md:gap-8">
@@ -651,9 +667,9 @@
             </div>
           </div>
         `;
-      });
+                });
 
-      const column = `
+                const column = `
   <div class="w-full max-w-4xl mx-auto"> <!-- 1 kolom penuh tapi terbatas lebarnya & rata tengah -->
     <div class="bg-gray-900/70 backdrop-blur-sm rounded-3xl p-8 md:p-12 shadow-2xl border border-gray-800">
       <div class="text-center mb-12">
@@ -667,63 +683,64 @@
   </div>
 `;
 
-      container.insertAdjacentHTML('beforeend', column);
-    });
-  }
+                container.insertAdjacentHTML('beforeend', column);
+            });
+        }
 
-  function loadAllMenus() {
-    if (typeof menuData === 'undefined') {
-      document.getElementById('menu-container').innerHTML = `<div class="col-span-2 text-center text-xl">Gagal memuat menu.</div>`;
-      return;
-    }
+        function loadAllMenus() {
+            if (typeof menuData === 'undefined') {
+                document.getElementById('menu-container').innerHTML = `<div class="col-span-2 text-center text-xl">Gagal memuat menu.</div>`;
+                return;
+            }
 
-    allMenuData = menuData;
+            allMenuData = menuData;
 
-    const categoryButtonsContainer = document.getElementById('category-buttons');
-    categoryButtonsContainer.innerHTML = ''; // Kosongkan dulu
+            const categoryButtonsContainer = document.getElementById('category-buttons');
+            categoryButtonsContainer.innerHTML = ''; // Kosongkan dulu
 
-    const categories = [...new Set(menuData.map(item => item.category))];
+            const categories = [...new Set(menuData.map(item => item.category))];
 
-    categories.forEach(cat => {
-      const btn = document.createElement('button');
-      btn.textContent = cat;
-      btn.dataset.category = cat;
-      btn.className = 'filter-btn px-8 py-3 rounded-full font-semibold transition-all bg-gray-700 hover:bg-green-600 text-white';
-      categoryButtonsContainer.appendChild(btn);
-    });
+            categories.forEach(cat => {
+                const btn = document.createElement('button');
+                btn.textContent = cat;
+                btn.dataset.category = cat;
+                // Ukuran responsif: lebih kecil di mobile, lebih besar di desktop
+                btn.className = 'filter-btn px-5 py-2 md:px-8 md:py-3 text-sm md:text-base rounded-full font-semibold transition-all whitespace-nowrap bg-gray-700 hover:bg-green-600 text-white';
+                categoryButtonsContainer.appendChild(btn);
+            });
 
-    // Event klik untuk filter
-    document.querySelectorAll('.filter-btn').forEach(btn => {
-      btn.addEventListener('click', () => {
-        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('bg-green-600'));
-        btn.classList.add('bg-green-600');
+            // Event klik untuk filter
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('bg-green-600'));
+                    btn.classList.add('bg-green-600');
 
-        const category = btn.dataset.category;
-        const filtered = allMenuData.filter(item => item.category === category);
-        renderMenuItems(filtered);
-      });
-    });
+                    const category = btn.dataset.category;
+                    const filtered = allMenuData.filter(item => item.category === category);
+                    renderMenuItems(filtered);
+                });
+            });
 
-    // Default: tampilkan hanya "Signature Drink"
-    const defaultCategory = 'Signature Drink'; // Ganti jika nama kategorinya berbeda, misal 'Signature' atau 'Kopi Spesial'
+            // Default: tampilkan hanya "Signature Drink"
+            const defaultCategory = 'Signature Drink'; // Ganti jika nama kategorinya berbeda, misal 'Signature' atau 'Kopi Spesial'
 
-    const defaultData = allMenuData.filter(item => item.category === defaultCategory);
+            const defaultData = allMenuData.filter(item => item.category === defaultCategory);
 
-    if (defaultData.length > 0) {
-      renderMenuItems(defaultData);
-      const defaultBtn = document.querySelector(`[data-category="${defaultCategory}"]`);
-      if (defaultBtn) defaultBtn.classList.add('bg-green-600');
-    } else {
-      // Jika tidak ada Signature Drink, tampilkan kategori pertama
-      if (categories.length > 0) {
-        renderMenuItems([allMenuData[0]]);
-        categoryButtonsContainer.querySelector('button').classList.add('bg-green-600');
-      }
-    }
-  }
+            if (defaultData.length > 0) {
+                renderMenuItems(defaultData);
+                const defaultBtn = document.querySelector(`[data-category="${defaultCategory}"]`);
+                if (defaultBtn) defaultBtn.classList.add('bg-green-600');
+            } else {
+                // Jika tidak ada Signature Drink, tampilkan kategori pertama
+                if (categories.length > 0) {
+                    renderMenuItems([allMenuData[0]]);
+                    categoryButtonsContainer.querySelector('button').classList.add('bg-green-600');
+                }
+            }
+        }
 
-  document.addEventListener('DOMContentLoaded', loadAllMenus);
-</script>
+        document.addEventListener('DOMContentLoaded', loadAllMenus);
+    </script>
 
 
 
