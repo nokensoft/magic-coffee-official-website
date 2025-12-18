@@ -6,37 +6,34 @@ const menuData = [
             {
                 "name": "Milk Magic",
                 "price": "25.000 / 30.000",
-                "description": "Minuman creamy dengan racikan susu spesial bertaste lembut dan manis seimbang.",
+                "description": "Kopi susu klasik dengan perpaduan SKM, creamer, dan espresso yang creamy serta nyaman diminum kapan saja.",
                 "original_price": null,
-                "badge": null
+                "badge": null,
+                "image": 'images/menu/milk-magic.png'
             },
             {
-                "name": "Kali kabur",
+                "name": "Kali Kabur",
                 "price": "25.000 / 30.000",
-                "description": "Signature drink dengan rasa unik khas lokal, manis segar dengan aroma khas.",
+                "description": "Signature kopi susu dengan sentuhan gula aren yang manis legit dan beraroma khas.",
                 "original_price": null,
-                "badge": null
+                "badge": null,
+                "image": 'images/menu/gula-aren.png'
             },
             {
                 "name": "Koat",
                 "price": "25.000 / 30.000",
-                "description": "Perpaduan susu dan sirup rempah khas Papua yang memberikan sensasi hangat & wangi.",
+                "description": "Kopi susu dengan rasa hazelnut yang lembut dan aroma kacang yang menenangkan.",
                 "original_price": null,
-                "badge": null
+                "badge": null,
+                "image": 'images/menu/koat.png'
             },
             {
-                "name": "Mocha latte",
+                "name": "Mocha Latte",
                 "price": "25.000 / 30.000",
-                "description": "Kombinasi espresso dan coklat premium dengan tekstur creamy dan rasa bold manis.",
+                "description": "Perpaduan harmonis antara espresso dan cokelat yang manis, creamy, dan memanjakan lidah.",
                 "original_price": null,
-                "badge": null
-            },
-            {
-                "name": "Affogato",
-                "price": "25.000",
-                "description": "Scoop es krim vanilla disiram espresso panas untuk sensasi manis-pahit yang balance.",
-                "original_price": null,
-                "badge": null
+                "badge": null,
+                "image": 'images/menu/vietnam-drip.png'
             }
         ]
     },
@@ -47,37 +44,42 @@ const menuData = [
             {
                 "name": "Espresso",
                 "price": "15.000",
-                "description": "Sajian kopi pekat satu shot dengan rasa kuat dan aroma intens.",
+                "description": "Sajian kopi hitam pekat dengan pilihan satu atau dua shot untuk rasa yang kuat dan intens.",
                 "original_price": null,
-                "badge": null
+                "badge": null,
+                "image": 'images/menu/espresso.png'
             },
             {
                 "name": "Americano",
                 "price": "20.000 / 23.000",
-                "description": "Espresso yang ditambahkan air, menghasilkan rasa ringan namun tetap bold.",
+                "description": "Espresso yang dipadukan dengan air panas untuk menghasilkan rasa ringan namun tetap bold.",
                 "original_price": null,
-                "badge": null
+                "badge": null,
+                "image": 'images/menu/vietnam-drip.png'
             },
             {
-                "name": "Cafe latte",
+                "name": "Cafe Latte",
                 "price": "25.000 / 28.000",
-                "description": "Perpaduan espresso dan susu steamed yang creamy dan lembut.",
+                "description": "Kombinasi espresso dan susu steamed yang lembut dengan tekstur creamy dan rasa seimbang.",
                 "original_price": null,
-                "badge": null
+                "badge": null,
+                "image": 'images/menu/vietnam-drip.png'
             },
             {
                 "name": "Cappuccino",
                 "price": "25.000 / 28.000",
-                "description": "Espresso dengan campuran susu dan foam tebal, rasa seimbang dan aromatic.",
+                "description": "Espresso dengan susu dan foam tebal yang menghasilkan rasa seimbang serta aroma menggoda.",
                 "original_price": null,
-                "badge": null
+                "badge": null,
+                "image": 'images/menu/cappuccino.png'
             },
             {
-                "name": "Kopi tubruk",
+                "name": "Kopi Tubruk",
                 "price": "20.000",
-                "description": "Kopi hitam khas Indonesia dengan metode seduh sederhana dan rasa autentik.",
+                "description": "Kopi hitam khas Indonesia yang diseduh langsung untuk cita rasa autentik dan kuat.",
                 "original_price": null,
-                "badge": null
+                "badge": null,
+                "image": 'images/menu/vietnam-drip.png'
             }
         ]
     },
@@ -88,23 +90,26 @@ const menuData = [
             {
                 "name": "V60",
                 "price": "30.000",
-                "description": "Metode seduh manual dengan filter paper, menghasilkan rasa yang clean dan ringan.",
+                "description": "Seduhan manual dengan filter paper yang menghasilkan rasa kopi clean, ringan, dan beraroma.",
                 "original_price": null,
-                "badge": null
+                "badge": null,
+                "image": 'images/menu/vietnam-drip.png'
             },
             {
                 "name": "Japanese",
                 "price": "30.000",
-                "description": "Manual brew ala Jepang dengan es, menghasilkan kopi yang lebih segar dan aromatik.",
+                "description": "Manual brew dengan teknik es ala Jepang yang menghadirkan sensasi segar dan aroma tajam.",
                 "original_price": null,
-                "badge": null
+                "badge": null,
+                "image": 'images/menu/vietnam-drip.png'
             },
             {
-                "name": "Vietnam drip",
+                "name": "Vietnam Drip",
                 "price": "20.000 / 25.000",
-                "description": "Kopi yang diseduh menggunakan dripper Vietnam, rasa kuat dengan karakter kopi pekat.",
+                "description": "Kopi seduh khas Vietnam dengan rasa pekat, bold, dan karakter kopi yang kuat.",
                 "original_price": null,
-                "badge": null
+                "badge": null,
+                "image": 'images/menu/vietnam-drip.png'
             }
         ]
     },
@@ -115,44 +120,50 @@ const menuData = [
             {
                 "name": "Pertalite",
                 "price": "30.000",
-                "description": "Minuman sparkling dengan rasa manis-segar dan warna cerah mencolok.",
+                "description": "Minuman sparkling dengan kombinasi rasa manis dan segar dari sirup aneka buah.",
                 "original_price": null,
-                "badge": null
+                "badge": null,
+                "image": 'images/menu/vietnam-drip.png'
             },
             {
-                "name": "Kali biru",
+                "name": "Kali Biru",
                 "price": "30.000",
-                "description": "Minuman berwarna biru dengan rasa buah segar dan sensasi soda ringan.",
+                "description": "Minuman sparkling segar dengan sirup biru yang unik dan menyegarkan.",
                 "original_price": null,
-                "badge": null
+                "badge": null,
+                "image": 'images/menu/vietnam-drip.png'
             },
             {
-                "name": "Magic purple",
+                "name": "Magic Purple",
                 "price": "30.000",
-                "description": "Minuman ungu dengan rasa fruity dan efek warna menarik saat disajikan.",
+                "description": "Minuman sparkling dengan sirup ungu yang manis, segar, dan eye-catching.",
                 "original_price": null,
-                "badge": null
+                "badge": null,
+                "image": 'images/menu/vietnam-drip.png'
             },
             {
-                "name": "Orange squash",
+                "name": "Orange Squash",
                 "price": "20.000",
-                "description": "Minuman jeruk segar dengan soda ringan, manis dan menyegarkan.",
+                "description": "Perpaduan jeruk segar dan soda ringan dengan rasa manis-asam yang menyegarkan.",
                 "original_price": null,
-                "badge": null
+                "badge": null,
+                "image": 'images/menu/vietnam-drip.png'
             },
             {
-                "name": "Mango squash",
+                "name": "Mango Squash",
                 "price": "20.000",
-                "description": "Perpaduan mangga manis dan soda yang memberikan kesegaran tropis.",
+                "description": "Minuman soda dengan rasa mangga manis yang menghadirkan kesegaran tropis.",
                 "original_price": null,
-                "badge": null
+                "badge": null,
+                "image": 'images/menu/vietnam-drip.png'
             },
             {
-                "name": "Lime squash",
+                "name": "Lime Squash",
                 "price": "20.000",
-                "description": "Perasan jeruk nipis segar dengan soda, rasa asam-manis yang menyegarkan.",
+                "description": "Perasan jeruk nipis segar dipadukan dengan soda untuk sensasi asam-manis yang menyegarkan.",
                 "original_price": null,
-                "badge": null
+                "badge": null,
+                "image": 'images/menu/vietnam-drip.png'
             }
         ]
     },
@@ -163,100 +174,114 @@ const menuData = [
             {
                 "name": "Kentang",
                 "price": "15.000",
-                "description": "Kentang goreng renyah disajikan dengan saus pendamping.",
+                "description": "Kentang goreng renyah yang disajikan hangat dengan saus pendamping.",
                 "original_price": null,
-                "badge": null
+                "badge": null,
+                "image": 'images/menu/vietnam-drip.png'
             },
             {
-                "name": "K-Polos",
+                "name": "Kentang Polos",
                 "price": "10.000",
-                "description": "Kue polos goreng sederhana dengan rasa manis ringan.",
+                "description": "Kentang goreng sederhana tanpa tambahan, gurih dan renyah.",
                 "original_price": null,
-                "badge": null
+                "badge": null,
+                "image": 'images/menu/vietnam-drip.png'
             },
             {
-                "name": "K+Sosis",
+                "name": "Kentang + Sosis",
                 "price": "15.000",
-                "description": "Kue goreng polos dipadukan dengan sosis gurih.",
+                "description": "Kentang goreng renyah dipadukan dengan sosis PNG yang gurih.",
                 "original_price": null,
-                "badge": null
+                "badge": null,
+                "image": 'images/menu/vietnam-drip.png'
             },
             {
                 "name": "Sosis PNG",
                 "price": "15.000",
-                "description": "Sosis khas Papua yang digoreng dengan tekstur juicy.",
+                "description": "Sosis khas PNG yang digoreng hingga matang dengan tekstur juicy.",
                 "original_price": null,
-                "badge": null
+                "badge": null,
+                "image": 'images/menu/vietnam-drip.png'
             },
             {
                 "name": "Singkong",
                 "price": "10.000",
-                "description": "Singkong goreng lembut dengan aroma khas dan gurih.",
+                "description": "Singkong goreng dengan tekstur lembut di dalam dan gurih di luar.",
                 "original_price": null,
-                "badge": null
+                "badge": null,
+                "image": 'images/menu/vietnam-drip.png'
             },
             {
-                "name": "S. Sambal",
+                "name": "Singkong Sambal",
                 "price": "15.000",
-                "description": "Singkong goreng dengan sambal pedas khas rumahan.",
+                "description": "Singkong goreng hangat disajikan dengan sambal pedas khas rumahan.",
                 "original_price": null,
-                "badge": null
+                "badge": null,
+                "image": 'images/menu/vietnam-drip.png'
             },
             {
-                "name": "S. Keju",
+                "name": "Singkong Keju",
                 "price": "20.000",
-                "description": "Singkong goreng dengan taburan keju melimpah.",
+                "description": "Singkong goreng gurih dengan taburan keju melimpah dan lezat.",
                 "original_price": null,
-                "badge": null
+                "badge": null,
+                "image": 'images/menu/vietnam-drip.png'
             },
             {
-                "name": "Pisang goreng",
+                "name": "Pisang Goreng",
                 "price": "15.000",
-                "description": "Pisang goreng manis renyah, cocok untuk teman kopi.",
+                "description": "Pisang goreng manis dan renyah yang pas sebagai teman minum kopi.",
                 "original_price": null,
-                "badge": null
+                "badge": null,
+                "image": 'images/menu/vietnam-drip.png'
             },
             {
-                "name": "Pisang sambal",
+                "name": "Pisang Sambal",
                 "price": "15.000",
-                "description": "Pisang goreng dipadukan dengan sambal pedas-manis.",
+                "description": "Pisang goreng manis yang dipadukan dengan sambal pedas-manis.",
                 "original_price": null,
-                "badge": null
+                "badge": null,
+                "image": 'images/menu/vietnam-drip.png'
             },
             {
-                "name": "Pisang coklat keju",
+                "name": "Pisang Coklat Keju",
                 "price": "20.000",
-                "description": "Pisang goreng dengan topping coklat dan keju.",
+                "description": "Pisang goreng dengan topping cokelat leleh dan keju parut.",
                 "original_price": null,
-                "badge": null
+                "badge": null,
+                "image": 'images/menu/vietnam-drip.png'
             },
             {
                 "name": "Mie Kuah/Goreng",
                 "price": "15.000",
-                "description": "Mie instan lezat pilihan kuah atau goreng.",
+                "description": "Mie instan pilihan kuah atau goreng yang hangat dan mengenyangkan.",
                 "original_price": null,
-                "badge": null
+                "badge": null,
+                "image": 'images/menu/vietnam-drip.png'
             },
             {
                 "name": "Mie Single + Telur",
                 "price": "20.000",
-                "description": "Sajian mie dengan tambahan satu telur untuk rasa lebih mantap.",
+                "description": "Satu porsi mie dengan tambahan telur untuk rasa yang lebih mantap.",
                 "original_price": null,
-                "badge": null
+                "badge": null,
+                "image": 'images/menu/vietnam-drip.png'
             },
             {
                 "name": "Mie Double + Telur",
                 "price": "25.000",
-                "description": "Porsi mie double dengan telur, cocok untuk yang lapar.",
+                "description": "Porsi mie double dengan telur yang mengenyangkan dan nikmat.",
                 "original_price": null,
-                "badge": null
+                "badge": null,
+                "image": 'images/menu/vietnam-drip.png'
             },
             {
                 "name": "Mie Komplit",
                 "price": "35.000",
-                "description": "Mie spesial lengkap dengan topping telur dan tambahan lainnya.",
+                "description": "Mie spesial dengan topping lengkap untuk pengalaman makan yang maksimal.",
                 "original_price": null,
-                "badge": null
+                "badge": null,
+                "image": 'images/menu/vietnam-drip.png'
             }
         ]
     }

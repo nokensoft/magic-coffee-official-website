@@ -1,590 +1,720 @@
-<!doctype html>
-<html lang="id">
-
+<html class="scroll-smooth">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Magic Coffee Sentani | Tempat Ngopi Santai Penuh Kehangatan di Papua</title>
 
-    <title>Magic Coffee Sentani | Tempat Ngopi Santai dengan Konsep Kehangatan</title>
-
+    <!-- SEO Meta Tags -->
     <meta name="description"
-        content="Magic Coffee Sentani - Menghadirkan konsep sederhana yang mengutamakan kehangatan dan kedekatan. Nikmati kopi terbaik Papua dengan suasana santai di depan Mall Sentani City Square. Tempat nongkrong yang asik!">
-
+        content="Magic Coffee adalah coffee shop santai yang berlokasi di JL. Sentani-Kemiri, tepat di depan Mall Sentani City Square, Kabupaten Jayapura, Papua. Sebagai usaha rintisan anak muda Papua, kami menghadirkan kehangatan dalam setiap cangkir melalui konsep sederhana yang mengutamakan kedekatan dan kebersamaan. Kami menyajikan kopi asli Papua dari berbagai daerah, seperti Wamena, Pegunungan Bintang, hingga Paniai, dengan cita rasa autentik yang mengajak setiap pengunjung menikmati cerita di balik setiap biji kopi lokal terbaik." />
     <meta name="keywords"
-        content="Magic Coffee Sentani, Coffee Shop Sentani, Cafe Papua, Kopi Papua, Tempat Nongkrong Sentani, Barista Cafe Jayapura, Kedai Kopi Santai Sentani">
+        content="Magic Coffee Sentani, coffee shop Sentani, cafe Papua, kopi Papua, kopi Wamena, kopi Pegunungan Bintang, kopi Paniai, tempat nongkrong Sentani, kedai kopi Jayapura, tempat ngopi santai Papua" />
+    <meta name="author" content="Magic Coffee" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://magiccoffee.shop/" />
+    <link rel="icon" href="images/logo-magic-coffee-dark-green.png" type="image/png" />
 
-    <meta name="author" content="Nokensoft">
-    <meta name="robots" content="index, follow">
-
-    <link rel="canonical" href="https://magiccoffee.shop/">
-
-    <link rel="icon" href="images/logo-magic-coffee-dark-green.png" type="image/png">
-
-    <meta property="og:title" content="Magic Coffee Sentani | Tempat Ngopi Santai dengan Konsep Kehangatan">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="Magic Coffee Sentani | Kopi Asli Papua Penuh Kehangatan" />
     <meta property="og:description"
-        content="Nikmati kopi terbaik dengan suasana santai dan hangat di Magic Coffee Sentani, tepat di depan Mall Sentani City Square.">
-    <meta property="og:image" content="https://id.pinterest.com/murnihariyani2450/banner-kopi/">
-    <meta property="og:url" content="https://magiccoffee.shop/">
-    <meta property="og:type" content="website">
+        content="Coffee shop santai di Sentani yang menyajikan kopi autentik dari Wamena, Pegunungan Bintang, hingga Paniai. Tempat nongkrong anak muda Papua yang penuh cerita dan kebersamaan." />
+    <meta property="og:image" content="https://magiccoffee.shop/images/magic-coffee-cover.png" />
+    <meta property="og:image:alt" content="Magic Coffee Sentani - Kopi Asli Papua dengan Suasana Hangat" />
+    <meta property="og:url" content="https://magiccoffee.shop/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="id_ID" />
+    <meta property="og:site_name" content="Magic Coffee" />
 
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Magic Coffee Sentani - Kehangatan di Setiap Cangkir">
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Magic Coffee Sentani | Kopi Asli Papua Penuh Kehangatan" />
     <meta name="twitter:description"
-        content="Coffee shop sederhana yang mengutamakan kedekatan dan kehangatan di Sentani, Papua.">
-    <meta name="twitter:image" content="https://id.pinterest.com/murnihariyani2450/banner-kopi/">
-
-
+        content="Coffee shop santai di Sentani yang menyajikan kopi autentik dari Wamena, Pegunungan Bintang, hingga Paniai. Tempat nongkrong anak muda Papua yang penuh cerita dan kebersamaan." />
+    <meta name="twitter:image" content="https://magiccoffee.shop/images/magic-coffee-cover.png" />
+    <meta name="twitter:image:alt" content="Magic Coffee Sentani - Kopi Asli Papua dengan Suasana Hangat" />
 
     <!-- JSON-LD Structured Data -->
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "CafeOrCoffeeShop",
-      "name": "Magic Coffee",
-      "image": "https://magiccoffee.shop/images/logo-magic-coffee-white.png",
-      "@id": "https://magiccoffee.shop",
-      "url": "https://magiccoffee.shop",
-      "telephone": "+6285325297604",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "JL.Sentani-Kemiri Depan Mall Sentani City Square",
-        "addressLocality": "Kab. Jayapura",
-        "addressRegion": "Papua",
-        "postalCode": "99352",
-        "addressCountry": "ID"
+  {
+    "@context": "https://schema.org",
+    "@type": "CafeOrCoffeeShop",
+    "name": "Magic Coffee",
+    "image": "https://magiccoffee.shop/images/logo-magic-coffee-white.png",
+    "@id": "https://magiccoffee.shop",
+    "url": "https://magiccoffee.shop",
+    "telephone": "+6285325297604",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "JL.Sentani-Kemiri Depan Mall Sentani City Square",
+      "addressLocality": "Kab. Jayapura",
+      "addressRegion": "Papua",
+      "postalCode": "99352",
+      "addressCountry": "ID"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": -2.5607,
+      "longitude": 140.5170
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+        "opens": "07:00",
+        "closes": "23:00"
       },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": -2.5607,
-        "longitude": 140.5170
-      },
-      "openingHoursSpecification": [
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": [
-            "Monday",
-            "Tuesday",
-            "Wednesday",
-            "Thursday",
-            "Friday",
-            "Saturday"
-          ],
-          "opens": "07:00",
-          "closes": "23:00"
-        },
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": "Sunday",
-          "opens": "18:00",
-          "closes": "23:00"
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Sunday",
+        "opens": "18:00",
+        "closes": "23:00"
+      }
+    ],
+    "sameAs": [
+      "https://www.instagram.com/magiccoffee.shop/",
+      "https://www.youtube.com/@magiccoffee.youtube"
+    ],
+    "priceRange": "$$"
+  }
+  </script>
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                    },
+                },
+            },
         }
-      ],
-      "sameAs": [
-        "https://www.instagram.com/magiccoffee.shop/",
-        "https://www.youtube.com/@magiccoffee.youtube"
-      ],
-      "priceRange": "$$"
-    }
     </script>
 
-    <!-- CSS FILES -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- Alpine.js CDN -->
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 
-    <link
-        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,400;0,600;0,700;1,200;1,700&display=swap"
-        rel="stylesheet">
+    <style>
+        /* Smooth scroll behavior global */
+        html {
+            scroll-behavior: smooth;
+        }
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <link href="css/bootstrap-icons.css" rel="stylesheet">
+        section[id]:not(#home) {
+            padding-top: 100px;
+            margin-top: -100px;
+        }
 
-    <link href="css/vegas.min.css" rel="stylesheet">
+        /* Khusus untuk #home (hero full screen), beri offset lebih besar jika perlu */
+        #home {
+            scroll-margin-top: 0;
+            /* Hero biasanya sudah di atas, tidak perlu offset */
+        }
 
-    <link href="css/tooplate-barista.css" rel="stylesheet">
+        @keyframes zoomInOut {
+            0% {
+                transform: scale(1);
+            }
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+            50% {
+                transform: scale(1.15);
+            }
 
-    <!--
+            100% {
+                transform: scale(1);
+            }
+        }
 
-        Tooplate 2137 Barista Cafe
+        .hero-slide {
+            position: absolute;
+            inset: 0;
+            background-size: cover;
+            background-position: center;
+            opacity: 0;
+            transition: opacity 1.5s ease-in-out;
+            animation: zoomInOut 10s ease-in-out infinite;
+        }
 
-        https://www.tooplate.com/view/2137-barista-cafe
-
-        Bootstrap 5 HTML CSS Template
-
-        -->
+        .hero-slide.active {
+            opacity: 1;
+        }
+    </style>
 </head>
 
-<body>
+<body class="bg-gray-900 text-white font-sans">
 
-    <main>
-        <nav class="navbar navbar-expand-lg">
-            <div class="container">
-                <a class="navbar-brand d-flex align-items-center" href="index.html">
-                    <img src="images/logo-magic-coffee-white.png" class="navbar-brand-image img-fluid"
-                        alt="Barista Cafe Template">
-                    Magic Coffee
+
+
+
+    <!-- Navbar -->
+    <nav x-data="{ open: false }" class="fixed top-0 w-full bg-black/80 backdrop-blur-md z-50">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <!-- Logo -->
+                <a href="#" class="flex items-center space-x-3 text-3xl font-bold">
+                    <img src="images/logo-magic-coffee-white.png" alt="Magic Coffee" class="h-12" />
+                    <span>Magic Coffee</span>
                 </a>
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                <!-- Desktop Menu -->
+                <ul class="hidden lg:flex items-center space-x-8 uppercase">
+                    <li><a href="#home" class="hover:text-green-400 transition">Beranda</a></li>
+                    <li><a href="#menu" class="text-green-500 hover:text-green-400 transition">
+                            <i class="fas fa-mug-hot mr-3"></i> Lihat Menu
+                        </a></li>
+                    <li><a href="#produk" class="hover:text-green-400 transition">Produk</a></li>
+                    <li><a href="#about" class="hover:text-green-400 transition">Tentang Kami</a></li>
+                    <li><a href="#gallery" class="hover:text-green-400 transition">Galeri Foto</a></li>
+                    <li>
+                        <a href="#footer"
+                            class="bg-green-600 hover:bg-green-700 px-6 py-4 rounded-full transition inline-flex items-center">
+                            <i class="fas fa-paper-plane mr-2"></i> Hubungi Kami
+                        </a>
+                    </li>
+                </ul>
+
+                <!-- Mobile Menu Button -->
+                <button @click="open = !open" class="lg:hidden text-3xl text-white">
+                    <i :class="open ? 'fas fa-xmark' : 'fas fa-bars'"></i>
                 </button>
+            </div>
 
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-lg-auto">
-                        <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_1">Beranda</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_2">Tentang Kami</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_3">Menu Tersedia</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_4">Momen & Suasana</a>
-                        </li>
-
-                    </ul>
-
-                    <div class="ms-lg-3">
-                        <a class="btn custom-btn custom-border-btn" href="#footer">
-                            <i class="fa-solid fa-paper-plane me-2"></i>
-                            Kontak/Ulasan
+            <!-- Mobile Menu - Rata Tengah -->
+            <div x-show="open" x-transition x-cloak class="lg:hidden mt-8 pb-6">
+                <ul class="flex flex-col items-center space-y-6 uppercase text-lg font-medium">
+                    <li>
+                        <a href="#home" @click="open=false"
+                            class="block py-2 hover:text-green-400 transition">Beranda</a>
+                    </li>
+                    <li>
+                        <a href="#menu" @click="open=false"
+                            class="block py-2 text-green-500 hover:text-green-400 transition">
+                            <i class="fas fa-mug-hot mr-3"></i> Lihat Menu
                         </a>
-                    </div>
-                </div>
-            </div>
-        </nav>
-
-
-        <section class="hero-section d-flex justify-content-center align-items-center" id="section_1">
-
-            <div class="container">
-                <div class="row align-items-center">
-
-                    <div class="col-lg-6 col-12 mx-auto">
-                        <em class="small-text text-white">Selamat Datang di Magic Coffee.</em>
-
-                        <h1>Sederhaan, Jujur, Namun Penuh Makna.</h1>
-
-                        <p class="text-white mb-4 pb-lg-2">
-                            Di balik setiap biji kopi, ada mata yang jeli, tangan yang telaten, dan waktu yang dibiarkan
-                            berjalan perlahan.
-                        </p>
-
-                        <a class="btn custom-btn smoothscroll me-2 mb-2" href="#section_3">
-                            <strong class="h1">
-                                <i class="fa-solid fa-coffee me-2"></i>
-                                Tampilkan Menu
-                            </strong>
+                    </li>
+                    <li>
+                        <a href="#produk" @click="open=false" class="block py-2 hover:text-green-400 transition">Produk
+                            Kami</a>
+                    </li>
+                    <li>
+                        <a href="#about" @click="open=false" class="block py-2 hover:text-green-400 transition">Tentang
+                            Kami</a>
+                    </li>
+                    <li>
+                        <a href="#gallery" @click="open=false"
+                            class="block py-2 hover:text-green-400 transition">Galeri Foto</a>
+                    </li>
+                    <li>
+                        <a href="#footer" @click="open=false"
+                            class="bg-green-600 hover:bg-green-500 text-white px-10 py-4 rounded-full inline-flex items-center shadow-lg hover:shadow-xl transition-all duration-300">
+                            <i class="fas fa-paper-plane mr-3"></i> Hubungi Kami
                         </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-                        <a class="btn custom-btn custom-border-btn smoothscroll me-3" href="#section_2">
-                            <i class="fa-solid fa-shop me-2"></i>
-                            Sekilas Tentang Kami
-                        </a>
-                    </div>
 
+
+
+    <!-- Hero Section dengan Slider Background -->
+    <section id="home" class="relative min-h-screen flex items-center overflow-hidden">
+        <!-- Slider Background -->
+        <div id="hero-slider" class="absolute inset-0">
+            <!-- Gambar akan di-inject via JS -->
+        </div>
+
+        <!-- Overlay gelap agar teks tetap terbaca -->
+        <div class="absolute inset-0 bg-black/60"></div>
+
+        <!-- Konten teks hero (sama seperti sebelumnya) -->
+        <div class="container mx-auto px-6 relative z-10">
+            <div class="max-w-2xl text-center mx-auto">
+                <p class="text-sm uppercase tracking-wider mb-6"><i class="fas fa-mug-hot mr-3"></i> Selamat Datang di
+                    Magic Coffee</p>
+                <h1 class="text-5xl md:text-7xl font-bold mb-6">Sederhana, Jujur, Namun Penuh Makna.</h1>
+                <p class="text-lg mb-10 opacity-90">
+                    Di balik setiap biji kopi, ada mata yang jeli, tangan yang telaten, dan waktu yang dibiarkan
+                    berjalan perlahan.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="#menu"
+                        class="bg-green-600 hover:bg-green-700 transition px-8 py-4 rounded-full text-lg font-semibold inline-flex items-center justify-center">
+                        <i class="fas fa-mug-hot mr-3"></i> Lihat Menu
+                    </a>
+                    <a href="#about"
+                        class="border-2 border-white hover:bg-green-600 hover:text-white px-8 py-4 rounded-full text-lg inline-flex items-center justify-center transition">
+                        <i class="fas fa-store mr-3"></i> Tentang Kami
+                    </a>
                 </div>
             </div>
+        </div>
+    </section>
 
-            <div class="hero-slides"></div>
-        </section>
 
 
-        <section class="about-section section-padding" id="section_2">
-            <div class="section-overlay"></div>
-            <div class="container">
-                <div class="row align-items-center">
 
-                    <div class="col-lg-6 col-12">
-                        <div class="ratio ratio-1x1">
-                            <video autoplay="" loop="" muted="" class="custom-video" poster="">
-                                <source src="videos/magic-coffee-ai-video-2.mp4" type="video/mp4">
 
-                                Your browser does not support the video tag.
-                            </video>
 
-                            <div class="about-video-info d-flex flex-column">
-                                <h4 class="mt-auto">Magic Cofee.</h4>
+    <!-- About Section -->
+    <section id="about" class="py-20 md:py-32 lg:py-40 overflow-hidden" style="padding-top: 200px;padding-bottom: 200px;">
+        <!-- Background (jika masih pakai about-bg) -->
+        <div class="about-bg absolute inset-0 -z-10"></div>
 
-                                <!-- <h4>...</h4> -->
-                            </div>
-                        </div>
+        <div class="container mx-auto px-6 relative z-10">
+            <div class="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+                <!-- Kolom Video - Full Height -->
+                <div class="relative rounded-2xl overflow-hidden shadow-2xl h-full min-h-96 lg:min-h-full">
+                    <video autoplay loop muted playsinline class="w-full h-full object-cover">
+                        <source src="videos/magic-coffee-ai-video-2.mp4" type="video/mp4" />
+                        Your browser does not support the video tag.
+                    </video>
+
+                    <!-- Overlay teks di bawah video -->
+                    <div
+                        class="absolute bottom-0 left-0 p-8 md:p-10 bg-gradient-to-t from-black/80 to-transparent w-full">
+                        <h3 class="text-3xl md:text-4xl font-bold text-white drop-shadow-2xl leading-tight">
+                            Magic Coffee.
+                        </h3>
                     </div>
+                </div>
 
-                    <div class="col-lg-5 col-12 mt-4 mt-lg-0 mx-auto">
-                        <em class="text-white">Magic Coffee</em>
+                <!-- Kolom Teks dengan Line Height Lebih Lega -->
+                <div class="text-center lg:text-left flex flex-col justify-center h-full">
+                    <p class="text-green-400 uppercase tracking-wider text-sm md:text-base mb-6 leading-loose">
+                        Magic Coffee
+                    </p>
 
-                        <h2 class="text-white mb-3">Magic Coffee</h2>
+                    <h2
+                        class="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-10 leading-snug md:leading-tight lg:leading-tight">
+                        Kehangatan dalam Kesederhanaan
+                    </h2>
 
-                        <p class="text-white">kami menghadirkan konsep sederhana yang mengutamakan kehangatan dan
-                            kedekatan. Di sini, setiap pengunjung dapat menikmati suasana yang santai tanpa perlu banyak
-                            ornamen atau dekorasi mewah. </p>
+                    <p
+                        class="text-lg md:text-xl text-gray-200 mb-8 leading-loose md:leading-loose lg:leading-loose opacity-90">
+                        Kami menghadirkan konsep sederhana yang mengutamakan kehangatan dan kedekatan. Di sini, setiap
+                        pengunjung dapat menikmati suasana yang santai tanpa perlu banyak ornamen atau dekorasi mewah.
+                    </p>
 
-                        <p class="text-white">Kami senang berbagi cerita dengan Anda. Ikuti kami juga di media sosial <a
-                                rel="nofollow" href="https://www.instagram.com/magiccoffee.shop/"
-                                target="_blank">@magiccoffee.sho~p</a>.</p>
+                    <p
+                        class="text-lg md:text-xl text-gray-200 mb-12 leading-loose md:leading-loose lg:leading-loose opacity-90">
+                        Kami senang berbagi cerita dengan Anda. Ikuti kami juga di media sosial
+                        <a href="https://www.instagram.com/magiccoffee.shop/" target="_blank"
+                            class="text-green-400 hover:text-green-300 underline transition">
+                            @magiccoffee.shop
+                        </a>.
+                    </p>
 
-                        <a href="#barista-team"
-                            class="smoothscroll btn custom-btn custom-border-btn mt-3 mb-4">Tampilkan Menu</a>
-                    </div>
-
+                    <a href="#menu"
+                        class="bg-green-600 hover:bg-green-500 text-white px-8 py-5 rounded-full text-lg md:text-xl font-bold inline-flex items-center justify-center w-fit mx-auto lg:mx-0 shadow-xl hover:shadow-2xl transition-all duration-300">
+                        <i class="fas fa-mug-hot mr-3"></i>
+                        Lihat Menu Kami
+                    </a>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
 
 
 
 
-        <section class="menu-section section-padding" id="section_3">
-            <div class="container">
-                <div class="row" id="menu-container">
 
-                    <div class="text-center py-5 text-white">Memuat menu lezat...</div>
+    <!-- Menu Section -->
+    <section id="menu" class="bg-gray-800" style="padding-top: 200px;padding-bottom: 200px;">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <p class="text-green-400 uppercase tracking-wider leading-loose md:leading-loose lg:leading-loose">Pilihan Kami</p>
+                <h2 class="text-4xl font-bold mb-8 leading-loose md:leading-loose lg:leading-loose">Menu Tersedia</h2>
+            </div>
 
+            <div id="menu-container" class="grid md:grid-cols-2 gap-8">
+                <div class="text-center py-20">
+                    <p class="text-xl">Memuat menu lezat...</p>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
 
 
 
 
 
-        <section class="reviews-section section-padding section-bg" id="section_4">
-            <div class="container">
-                <div class="row justify-content-center">
 
-                    <!-- <div class="col-lg-12 col-12 text-center mb-4 pb-lg-2">
-                        <em class="text-white">Momen dan Suasana</em>
+    <!-- Produk Section - Highlight Roasted Coffee Beans -->
+    <section id="produk" style="padding-top: 200px;padding-bottom: 200px;">
 
-                        <h2 class="text-white">Galeri</h2>
-                    </div> -->
-
-                    <div class="row">
-                        <div class="col-lg-3">
-                            <img src="./images/galeri/magic-coffee-galeri-7.png"
-                                alt="Mahkota khas Papua di Magic Coffee" class="w-100 mb-4 border-light rounded shadow">
-                        </div>
-                        <div class="col-lg-3">
-                            <img src="./images/galeri/magic-coffee-galeri-9.png"
-                                alt="Deorasi khas Papua di Magic Coffee" class="w-100 mb-4 border-light rounded shadow">
-                        </div>
-                        <div class="col-lg-3">
-                            <img src="./images/galeri/magic-coffee-galeri-1.png"
-                                alt="Barista sedang menyeduh coffee di Magic Coffee, Sentani, Papua."
-                                class="w-100 mb-4 border-light rounded shadow">
-                        </div>
-                        <div class="col-lg-3">
-                            <img src="./images/galeri/magic-coffee-galeri-8.png"
-                                alt="Deorasi khas Papua di Magic Coffee" class="w-100 mb-4 border-light rounded shadow">
-                        </div>
-                        <div class="col-lg-3">
-                            <img src="./images/galeri/magic-coffee-galeri-3.png"
-                                alt="Barista sedang menyeduh coffee di Magic Coffee, Sentani, Papua."
-                                class="w-100 mb-4 border-light rounded shadow">
-                        </div>
-                        <div class="col-lg-3">
-                            <img src="./images/galeri/magic-coffee-galeri-4.png"
-                                alt="Suasana Cafe di Magic Coffee, Sentani, Papua."
-                                class="w-100 mb-4 border-light rounded shadow">
-                        </div>
-                        <div class="col-lg-3">
-                            <img src="./images/galeri/magic-coffee-galeri-5.png"
-                                alt="Logo Magic Coffee pada dinding Cafe, Sentani, Papua."
-                                class="w-100 mb-4 border-light rounded shadow">
-                        </div>
-                        <div class="col-lg-3">
-                            <img src="./images/galeri/magic-coffee-galeri-10.png"
-                                alt="Deorasi khas Papua di Magic Coffee" class="w-100 mb-4 border-light rounded shadow">
-                        </div>
-                        <div class="col-lg-3">
-                            <img src="./images/galeri/magic-coffee-galeri-11.png"
-                                alt="Deorasi khas Papua di Magic Coffee" class="w-100 mb-4 border-light rounded shadow">
-                        </div>
-                        <div class="col-lg-3">
-                            <img src="./images/galeri/magic-coffee-galeri-6.png"
-                                alt="Suasana Coffee Shop Magic Coffee, Sentani, Papua."
-                                class="w-100 mb-4 border-light rounded shadow">
-                        </div>
-                        <div class="col-lg-3">
-                            <img src="./images/galeri/magic-coffee-galeri-2.png"
-                                alt="Barista sedang menyeduh coffee di Magic Coffee, Sentani, Papua."
-                                class="w-100 mb-4 border-light rounded shadow">
-                        </div>
-                    </div>
-
-                </div>
+        
+        <div class="container mx-auto px-6">
+            <!-- Judul Section -->
+            <div class="text-center mb-16">
+                <p class="text-green-500 uppercase tracking-wider text-sm md:text-base font-medium">
+                    Produk Kami
+                </p>
+                <h2 class="text-4xl md:text-5xl font-bold mt-4">Roasted Coffee Beans</h2>
+                <p class="text-gray-300 mt-4 max-w-2xl mx-auto text-lg leading-relaxed">
+                    Biji kopi Papua pilihan yang disangrai dengan penuh ketelatenan, menghasilkan aroma kaya dan rasa
+                    autentik khas tanah Papua — siap dinikmati di rumah.
+                </p>
             </div>
-        </section>
 
+            <!-- Highlight Produk Tunggal -->
+            <div class="max-w-4xl mx-auto">
+                <div
+                    class="bg-gray-800/60 backdrop-blur-sm rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-shadow duration-500">
+                    <div class="grid md:grid-cols-2 items-center">
+                        <!-- Gambar Produk -->
+                        <div class="order-2 md:order-1 p-8 md:p-12">
+                            <img src="images/products/magic-coffee-produk-roasted-beans.jpeg"
+                                alt="Magic Coffee Roasted Coffee Beans - Biji Kopi Sangrai Asli Papua"
+                                class="w-full rounded-2xl shadow-xl object-cover" />
+                        </div>
 
-        <section class="contact-section section-padding" id="section_5">
-            <div class="container">
-                <div class="row">
+                        <!-- Deskripsi Produk -->
+                        <div class="order-1 md:order-2 p-8 md:p-12 text-center md:text-left">
+                            <h3 class="text-3xl md:text-4xl font-extrabold mb-6 text-green-400">
+                                Roasted Coffee Beans
+                            </h3>
+                            <p class="text-gray-300 text-lg leading-relaxed mb-8">
+                                Biji kopi robusta dan arabika premium dari Wamena, Pegunungan Bintang, dan Paniai yang
+                                dipilih secara teliti, disangrai dengan teknik tradisional untuk mempertahankan karakter
+                                rasa tanah Papua yang khas.
+                            </p>
+                            <ul class="text-gray-400 space-y-3 mb-10 text-left max-w-md mx-auto md:mx-0">
+                                <li class="flex items-center"><i class="fas fa-check text-green-500 mr-3"></i> 100% biji
+                                    kopi asli Papua</li>
+                                <li class="flex items-center"><i class="fas fa-check text-green-500 mr-3"></i> Proses
+                                    sangrai medium untuk rasa seimbang</li>
+                                <li class="flex items-center"><i class="fas fa-check text-green-500 mr-3"></i> Kemasan
+                                    kedap udara, freshness terjaga</li>
+                                <li class="flex items-center"><i class="fas fa-check text-green-500 mr-3"></i> Cocok
+                                    untuk drip, french press, espresso dan sebagainya</li>
+                            </ul>
 
-                    <div class="col-lg-12 col-12 text-center">
-                        <img src="./images/logo-magic-coffee-white.png" class="w-25" alt="Logo Magic Coffee">
-                        <h2 class="text-white mb-4 pb-lg-2">Terima kasih sudah berkunjung <br> di Magic Coffee</h2>
-                        <em class="text-white">Kami menantikan kedatangan kembali lagi dan mendengar cerita dari
-                            Anda.</em>
-                        <div class="d-block py-4">
+                            <!-- Call to Action -->
                             <a href="https://wa.link/qrmijh" target="_blank"
-                                class="btn bg-success rounded-pill text-white py-3 px-4 fs-5">
-                                <i class="fab fa-whatsapp"></i> Hubungi Kami
+                                class="inline-flex items-center bg-green-600 hover:bg-green-500 text-white px-8 py-4 rounded-full text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300 text-center">
+                                <div>
+                                    <i class="fab fa-whatsapp mr-3 text-xl"></i>
+                                Pesan Sekarang via WhatsApp
+                                </div>
                             </a>
                         </div>
                     </div>
-
                 </div>
             </div>
-        </section>
-
-
-        <footer class="site-footer" id="footer">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-lg-4 col-12 me-auto">
-                        <em class="text-white d-block mb-4">Alamat dan Informasi Kontak</em>
-
-                        <strong class="text-white">
-                            <i class="bi-geo-alt me-2"></i> JL.Sentani-Kemiri Depan Mall Sentani City Square, Kab.
-                            Jayapura, Papua.
-                        </strong> <br><br>
-
-
-                        <p class="d-flex mb-1">
-                            <strong class="me-2">Nomor HP (WA):</strong>
-                            <a href="tel: +62 853-2529-7604" class="site-footer-link">
-                                +62 853-2529-7604
-                            </a>
-                        </p>
-
-                        <p class="d-flex">
-                            <strong class="me-2">Email:</strong>
-
-                            <a href="mailto:info@magiccoffee.com" class="site-footer-link">
-                                hello@magiccoffee.com
-                            </a>
-                        </p>
-
-                        <ul class="social-icon mt-4">
-                            <li class="social-icon-item">
-                                <a href="#" target="_blank" class="social-icon-link bi-instagram">
-                                </a>
-                            </li>
-
-                            <li class="social-icon-item">
-                                <a href="https://www.youtube.com/@magiccoffee.youtube" target="_blank"
-                                    class="social-icon-link bi-youtube">
-                                </a>
-                            </li>
-
-                            <li class="social-icon-item">
-                                <a href="https://wa.link/qrmijh" target="_blank" class="social-icon-link bi-whatsapp">
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="col-lg-5 col-12 mt-4 mb-3 mt-lg-0 mb-lg-0">
-
-
-                        <em class="text-white d-block mb-4">Jam Operasional</em>
-
-                        <ul class="opening-hours-list">
-                            <li class="d-flex">
-                                Senin
-                                <span class="underline"></span>
-
-                                <strong>7:00 - 23:00</strong>
-                            </li>
-                            <li class="d-flex">
-                                Selasa
-                                <span class="underline"></span>
-
-                                <strong>7:00 - 23:00</strong>
-                            </li>
-                            <li class="d-flex">
-                                Rabu
-                                <span class="underline"></span>
-
-                                <strong>7:00 - 23:00</strong>
-                            </li>
-                            <li class="d-flex">
-                                Kamis
-                                <span class="underline"></span>
-
-                                <strong>7:00 - 23:00</strong>
-                            </li>
-                            <li class="d-flex">
-                                Jumat
-                                <span class="underline"></span>
-
-                                <strong>7:00 - 23:00</strong>
-                            </li>
-                            <li class="d-flex">
-                                Sabtu
-                                <span class="underline"></span>
-
-                                <strong>7:00 - 23:00</strong>
-                            </li>
-
-                            <li class="d-flex">
-                                Minggu
-                                <span class="underline"></span>
-
-                                <strong>18:00 - 23:00</strong>
-                            </li>
-
-                        </ul>
-
-                    </div>
-
-
-                    <div class="col-lg-3 col-12">
-                        <em class="text-white d-block mb-4">Scan Bar Code Untuk Berikan Tanggapan Anda</em>
-
-                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAOx0lEQVR4AeycAXbcuBFEhb3/nRP9kT5dAhsAxxrv2ibyXFON6uoGiekgjp52/3l7e/vfd/G/z/9UfT5TXyh9JlKrYn0VV/6VZp+V79X57+xrbcWvek4G4r3X/rNP4OMEjoF4n7q3Z/BRPv60V+UwB1f5SmutvbX2FfroI9RW3NpHL+uSV7XpNV7VzPJVj0pr7eOZZ73IWXuVqRHHQChsvvcJnAaitY8pbK3m2XHlRLZW17fWvrRorT3+m5+1V+PWPmpb+8FfmneLqm9rP2pb+4izbFaTPuP0qyW3dt7DfNa29uFLTd9Vbu2jR2s1V31OA1GZtnafE9gDcZ/v+tKbvnQgWvtxNV3a/d3klfgenv60dq2fPUZs49Z+9GvtIzaXnH3UW/vwt9aUHv9T11p7sDWtfaxba8df0o+C90Dfe3j8aa29gUN4D/Shi0p7t770z0sH4qVPtpv9JyfwywfCqU524pOvvn3W2PNq7VVf7mGNe8FqydakZkyNUPsO2wv+Tp+q9pcPRLXp1n7fE9gD8ft+N//Jk50Ggmtohmef0qsUtjb7qyXjBalVMZ4R0u9+lWYuOX1Vf73pq+KqVp89ktOv7zucvau46n0aiMq0tfucwDEQOZ1X4tUROZGVL/vrq7SqNjVrKy37Zb6PV75qj74H68pXaXjBal88I6xqM38lzn2OgUjxTvF+168nsAfi63ncfvWP19p32FPMHl5V5mC1ypcaXpBaVYunx1WfdbmHWrL9Ku1Vte5R9UtNXz6Lcfq+E+8bwhPd/DiB6UDMJtIc/OjUfVRT2lmGS3r20Jy62s/slX362L7JuUfqxvZIn7GeFdtjxKt686N6dD0w6x7TgaBo414nsAfiXt/38m2nAzG78szB7tJfP/0aL9A/Yjwg86xBan3/XKfvakx/kH7W4GrvlY9eoNqj0vAK865htYrJ90ifudSmA5HGV8e73+95Av/kRBNXj4kuzLtONgdX06eXvNBnDja3Ymsrpo+wT+VLrfdb17M1vd6vr/ab+czBs33JC5/DdbK5ZPvC+4bIk9nx2x6IPQRfTuD0k8rMetVUGtfLDNZWnuxnnL6ZZi7ZveDUZzHeHjP/1Vz1HlVt7m0+a81Xmrnk9Nkv2XzWZN543xCexObHCRwD4eQ81M8Ppyr5M/X4TeO+xjVsDbGoavucnp4r37Oaftjny30qLfN9TB/xbK1+uO+ba/vDqRtTD1yvGK+gZ49jIFaNdv4vPYHutfZAdAdy9+XxcwivkasHoh+uaryKqhw1PfTDVY1aXzda64f1EL8CPCOwL1z1RQeZow6kVsXUXQG9elR11R5q6d83hKey+XEC04Fw8h7Ozw+nyVyyueTPsgel1/iR+OaHvWBbjZ7B/HfY3tmDvXtk3tja9JpbsTXps19qlc+8ObjSpgNhweb7nMAeiPt815fe9BgIrpAeduh11l5Vyeg9Mm9s32fY2r4/a3OwPdGFGnlhzjWsL1lfpZmDzdNHoANzMGugJxm9BzVXkH2Ms5c9zI34GAgLNv9LJ/CbbnMMRDUxs2fO6TNOv/3MJadPXT+sVnHWXo1nfTJnP55BPKvpX3Hua+yeyas+V/PusfIfA7Ey7vw9TmAPxD2+58tveQxEdaXk1fVsbL+s86kqTT9sXn+yOTj1WYx3hKxj7x7mU7dXavpWbG36Ks3elc8cnHljdGDfZPQZjoGw2eZ7n8BpIGbTM8pdPUInNf1qyeZTMzaXXD1X5o3Tp2ZfeKaZS6ZGpN7HemBzxMLnMjdifdbBalWNueTKl9ppIDK54/udwP0G4n7f8VNvfPxO5VNV72auK/G+PP2Z5VZXWOaN3cA1rOZeyeaSM089yLwxulC7ytbB7reqrXxq9BH2cQ3rMwdXGjowl4wu9g3hSWx+nMClgchpMmY6ezw6fn70OdafqePf8EovdGAORu+BB5AXelzDeIA5mHUPdJA69QC9B/oVZF327uPs1edYZ34W4wUzDzmfC69AB+bgSwNB0cY9TmAPxD2+58tveQwE1wXIStbAKwY2jy7Uks0lU9/DfNb2Htbf8WXvPrYv3OdWa55LUA9cw6x7VD17D2t9xKLS+pwe2BzMGhAL1oBnFcdAkNjYJ3AMhBPi9MCV5pGZg/EC4h763yLAK0Kehva1bsTTJpG0X7LpSjOXnM9gTeaNzcHWEPfQD5sjFrNa/Su2V7J94WMg0rDj+57AHoj7fvflm58GIq8crhCQlebRhXnXsFoyOkjN2L6wGt4e5IU+1yPWl73UrvLV2qu+3NeafH619BmbW7F+WG/uUcWngaB4474ncPyjfLMjyEnSl1oVO5H6R2xtlTeXbF9YnbhH9jOnH878lZgaod817B7mYHRALFgD/TBroAdmDYh7oF9B1ulnP2HeNbxvCE9l8+ME9kA8juFOH/N3PQaC6wKk3WsmNTwjpG8W2xe218xPTh81Ar3HLJde+1WcPuP0zfYwB2dNH9s3ufewzjw9QWp4RkifMfVCLfkYiBR3fN8TOAbCqclpmx2Lfvg7PupB7mucffGA1CpfpWVNH9NT9LnR+uoes77mYPch7mFuxVk38/rsyVl7DMSsyc7d5wT2QNznu770psfvVHqF5PUx66Af/o6PejDrkTm8IvU+1gP3uVyTF6nPYs/IOrjS0IE5uOqLZwRqRFWrlvVqyeZTq+J9Q1SncmPt+EmlU+gkJef56Ks4fcbpU6t45fN5staa1K7G1lacPcyn5rOYgzNvjA4+1uNPPKByuFdy+qgbIX2zOHvvG2J2UjfM7YG44Zc+e+XTQFTXTzbI68XYvGvYPsRCX8V64KpWrapN7arPGvYTM81csnXJmTfOfPV85vXD+pLRgf4R4wGZtw+6UEs+DYTmzfc8gdP/7cypmh1JTtV3fPapepiDfa70VVrmjakHrkdsP7xCr2v4FZp7wfQE9oXRAfEM1PWgDmQda5DezBvvG8KT2Pw4gT0Qj2PYH57A8XMIhepK4aoR+lwnm0vOvL0zfzWuatWSz/3ejn+WNHM+V2pVrC/Z/VZa5o3dwx5wpaEDczDrHugj9F7WPkdy1u8bIk9jx2/HXyo9i9HkmJeZth7mYPukBx2YS/4ZX9b3cfYzZu9nUdW6lznYvsRipplbsXslr2rcv6oxl5y+fUOsTvdm+T0QN/vCV697Goi8SiyutLxm9P0M2zv7GZtLNge7X+bVKqZGWJM+NT3J5pIzX8X2rnIrzdoV2+eqT39yvtNpIFaNd/7vPoFjIJySfN2cImN9yVUu+8xia2cecvpyX3RgDmbdAx1kLWuQmnWVZg6mDhCLrOljPc8w/UFVgy7Mu4bV8jnUks1TI46BSONr4t3lTzyBPRB/4rf2C5/5NBBeHbBXSrU/eVHlrdUDVz41/cnmYHX6CDXyr4B9V72e3Vf/ilf7ms8+M833gSsfOjAHnwYCceO+J3AaiJw+pgesNI8Pbw9zsLnsh34F1lbe7GesH1araiuNGmHeNaxWMXlR5dX0wGo+Z7K5Eeuljxh50fXA1iafBoKijfuewB6I+3735Zs/PRBeL1w5ouqsL1mfdXCloffQV3HvZV35UvO58Arz5pLNjbjvga/S0K+gqvV5sl6fOVjt0/cgdPBYfH7oS356ID57bfpLT+A0EDkts3dm2kTlyz7GM7+5Fede9k2tiq/63Ft/sjlYnXgGn0V/ctbpqzh9WW9sPmvVkjNvnHnj00Bo3nzPE9gDcc/vffjWp4Hw6oCt8nqCKw0vMJeMLqgHrpPRe2Qfc1ljPrUq1mcPWK3i7GGeGmHeNawvWV+yeWqEWsV64CpfaXhHSH/lOQ1EFuz4fidw/Na105JHkJNtrM81nDXPxvZb1bEPqHz2SE4fdSA1Y3SR9cYzn3Vw77euZ7w9rE3uPaO1/atac/CoHp282DeEJ/F6/iM77oH4I7+2X/fQp1/Dz628hlIzNpdsDuYqAlU+NTyAmh7pM5cadcAczBqkDx2gC9Yj6EkeedX15r7GeuBKQwf2gFkD/cnoQt31ivUns5/YN8TqBG+WP/5S6YRUk5Nnoq/i9NknfeZXWuaN7WePZD2wOrFQ+xl232T7pmZvc7BaxVmLF6RmjC7sYw42l6zvqqYf3jcEp7BxnMAeiOModsAJnP5SmdcMV9IzoOEM9k7P1f7P1lZ7VFru7x6pWWMONk8s1PTD5oh7mIOtJRb6zcHmkivfs5p++G+8IXivjZ88gWMgmMAeTmLV21xy+tRT6/uzNq8fVkvGC8gL866T8Qp1/bBaMjqoNPQe9ofNEfcwB9s7Peg99CVb03tZp481SM3a1PD0OAaiT+z1PU9gD8Q9v/fhW08HwmumqjaXXF1HVT77WVP5zMHWVL7U9FEj1JKzpo/TZ4/0ZP5KnLXGVZ25EfssWTvyoqfPWnShlr7pQKRxx/c4gdNPKp2aZ9ijcvKSs4++FVtf+bLfzGcuedWvyluf++pLzdjciK/6RvUj3b5w5fE9Zjk8+4aoTujG2isH4sbH+Pe8+jEQXBfPYHUEXF0ge1qDLsybSzYHp97H9oLxgvSgg9SM8Qq1ZOqAHpg1SB86QJ/BmpmHnL6rzN5iVkNvUfmOgaiSW7vfCZwGwukZ8XeOaDbB1X65l3l7wDPNHJx9jNFH0AOzDyCewV4zz8/k7AvzHCD7oI+QPmPqe2T9aSAs3HzPE9gDcc/vffjWLx2IvHrcsdLMweb7a4w1ecEa6IdZAz3J6D2eyaf3V8T9s7HOfXg/gC7Mu16xfphegHiGlw7EbKOd+/dO4Ds7vXQgcmJ9qJVmnukV1rpONgerE4uqnz5zsFpy32Pl0z9i6keo9h31Uc+aWaw/2edIzR6pvXQgsvGO/8wT2APxZ35vv+ypTwPh1TLiZ5/Eawme1eZ+eEH6M29sHm8PPcn64dT7OHvhHSHr9KRmH3Mjvuqr6nM/Y32uYbWKyYvTQFQFW7vPCRwD4ZRe5dUROXHps3elmYMzb4zewz0qti65r2dd5bNf5l8Rsyeo9kjNOPdUS6YXSB/rEdJXxcdAVMmt3e8E9kC88Dv/G1r9HwAA//9k0byLAAAABklEQVQDAGyCBwaDAd/JAAAAAElFTkSuQmCC"
-                            alt="Ulasan Google Magic Coffee" class="w-50 p-2 border rounded">
-
-                        <p class="my-2">Atau klik pada tombol berikut</p>
-
-                        <a href="https://g.page/r/CTM-9a55NeF4EAE/review" target="_blank"
-                            class="btn custom-btn custom-border-btn">
-                            <i class="fa-solid fa-paper-plane me-2"></i>
-                            Berikan Ulasan
-                        </a>
+        </div>
+    </section>
 
 
 
 
-                    </div>
 
-                    <div class=" col-12 mt-4 text-center">
-                        <p class="copyright-text mb-0">2025 © <a href="#" class="text-white fw-bold">Magic Coffee</a>
-                            - Powered by <a rel="sponsored" href="https://nokensoft.com" target="_blank"
-                                class="text-white fw-bold">Nokensoft.com</a>
-                        </p>
+<!-- Gallery Section -->
+<section id="gallery" class="py-20 bg-gray-700" style="padding-top: 100px; padding-bottom: 100px;">
+  <div class="container mx-auto px-6">
+    <!-- Judul & Deskripsi -->
+    <div class="text-center mb-12">
+      <p class="text-green-400 uppercase tracking-wider mb-3">Momen & Suasana</p>
+      <h2 class="text-4xl md:text-5xl font-bold mb-6">Galeri Foto Magic Coffee</h2>
+      <p class="text-gray-300 text-lg md:text-xl max-w-3xl mx-auto leading-relaxed px-4">
+        Abadikan kehangatan setiap cangkir, senyum pengunjung, serta nuansa sederhana khas Papua di Magic Coffee Sentani. 
+        Setiap foto adalah cerita tentang kopi, kebersamaan, dan tanah yang kami cintai.
+      </p>
+    </div>
+
+    <!-- Grid Galeri: 1 kolom di mobile, 4 kolom di desktop -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 md:gap-8">
+      <img src="./images/galeri/magic-coffee-galeri-7.png" alt="Mahkota khas Papua"
+           class="rounded-xl shadow-2xl w-full object-cover aspect-square hover:scale-105 transition-transform duration-500" />
+      <img src="./images/galeri/magic-coffee-galeri-9.png" alt="Dekorasi khas Papua"
+           class="rounded-xl shadow-2xl w-full object-cover aspect-square hover:scale-105 transition-transform duration-500" />
+      <img src="./images/galeri/magic-coffee-galeri-1.png" alt="Barista menyeduh kopi"
+           class="rounded-xl shadow-2xl w-full object-cover aspect-square hover:scale-105 transition-transform duration-500" />
+      <img src="./images/galeri/magic-coffee-galeri-8.png" alt="Dekorasi khas Papua"
+           class="rounded-xl shadow-2xl w-full object-cover aspect-square hover:scale-105 transition-transform duration-500" />
+      <img src="./images/galeri/magic-coffee-galeri-3.png" alt="Barista menyeduh kopi"
+           class="rounded-xl shadow-2xl w-full object-cover aspect-square hover:scale-105 transition-transform duration-500" />
+      <img src="./images/galeri/magic-coffee-galeri-4.png" alt="Suasana cafe"
+           class="rounded-xl shadow-2xl w-full object-cover aspect-square hover:scale-105 transition-transform duration-500" />
+      <img src="./images/galeri/magic-coffee-galeri-5.png" alt="Logo Magic Coffee"
+           class="rounded-xl shadow-2xl w-full object-cover aspect-square hover:scale-105 transition-transform duration-500" />
+      <img src="./images/galeri/magic-coffee-galeri-10.png" alt="Dekorasi khas Papua"
+           class="rounded-xl shadow-2xl w-full object-cover aspect-square hover:scale-105 transition-transform duration-500" />
+      <img src="./images/galeri/magic-coffee-galeri-11.png" alt="Dekorasi khas Papua"
+           class="rounded-xl shadow-2xl w-full object-cover aspect-square hover:scale-105 transition-transform duration-500" />
+      <img src="./images/galeri/magic-coffee-galeri-6.png" alt="Suasana coffee shop"
+           class="rounded-xl shadow-2xl w-full object-cover aspect-square hover:scale-105 transition-transform duration-500" />
+      <img src="./images/galeri/magic-coffee-galeri-2.png" alt="Barista menyeduh kopi"
+           class="rounded-xl shadow-2xl w-full object-cover aspect-square hover:scale-105 transition-transform duration-500" />
+    </div>
+  </div>
+</section>
+
+
+
+    <!-- Contact / Closing Section dengan Background Gambar + Dark Overlay -->
+    <section class="py-20 relative overflow-hidden">
+
+        <!-- Background Gambar -->
+        <div class="absolute inset-0 bg-cover bg-center bg-no-repeat"
+            style="background-image: url('images/slides/magic-coffee-slide-10.png');">
+        </div>
+
+        <!-- Dark Overlay untuk kontras teks -->
+        <div class="absolute inset-0 bg-black/70"></div>
+
+        <!-- Konten -->
+        <div class="container mx-auto px-6 relative z-10 text-center">
+            <img src="./images/logo-magic-coffee-white.png" alt="Magic Coffee"
+                class="w-48 md:w-64 mx-auto mb-8 drop-shadow-2xl" />
+
+            <h2 class="text-4xl md:text-5xl font-bold mb-6 text-white drop-shadow-lg">
+                Terima kasih sudah berkunjung di Magic Coffee
+            </h2>
+
+            <p class="text-xl md:text-2xl mb-12 opacity-95 max-w-2xl mx-auto text-gray-200">
+                Kami menantikan kedatangan kembali lagi dan mendengar cerita dari Anda.
+            </p>
+
+            <a href="https://wa.link/qrmijh" target="_blank"
+                class="bg-green-600 hover:bg-green-500 text-white px-10 py-5 rounded-full text-lg md:text-xl font-semibold inline-flex items-center shadow-xl hover:shadow-2xl transition-all duration-300">
+                <i class="fab fa-whatsapp mr-3 text-2xl"></i> Hubungi Kami
+            </a>
+        </div>
+    </section>
+
+
+
+
+    <!-- Footer -->
+    <footer id="footer" class="bg-black py-16">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-3 gap-12">
+                <!-- Contact Info -->
+                <div>
+                    <p class="text-green-400 uppercase tracking-wider my-9">Alamat & Kontak</p>
+                    <p class="mb-6">
+                        <i class="fas fa-map-marker-alt mr-2"></i>
+                        JL. Sentani-Kemiri Depan Mall Sentani City Square,<br />
+                        Kab. Jayapura, Papua.
+                    </p>
+                    <p class="mb-2"><strong>WA:</strong> <a href="tel:+6285325297604" class="hover:text-green-400">+62
+                            853-2529-7604</a></p>
+                    <p class="mb-6"><strong>Email:</strong> <a href="mailto:hello@magiccoffee.com"
+                            class="hover:text-green-400">hello@magiccoffee.com</a></p>
+
+                    <div class="flex space-x-4">
+                        <a href="https://www.instagram.com/magiccoffee.shop/" target="_blank"
+                            class="text-2xl hover:text-green-400"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/@magiccoffee.youtube" target="_blank"
+                            class="text-2xl hover:text-green-400"><i class="fab fa-youtube"></i></a>
+                        <a href="https://wa.link/qrmijh" target="_blank" class="text-2xl hover:text-green-400"><i
+                                class="fab fa-whatsapp"></i></a>
                     </div>
                 </div>
-        </footer>
 
-    </main>
+                <!-- Opening Hours -->
+                <div>
+                    <p class="text-green-400 uppercase tracking-wider my-9 text-left">Jam Operasional</p>
+                    <ul class="space-y-2">
+                        <li class="flex justify-between"><span>Senin - Sabtu</span> <strong>07:00 - 23:00</strong></li>
+                        <li class="flex justify-between"><span>Minggu</span> <strong>18:00 - 23:00</strong></li>
+                    </ul>
+                </div>
 
-    <!-- JAVASCRIPT FILES -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.sticky.js"></script>
-    <script src="js/click-scroll.js"></script>
-    <script src="js/vegas.min.js"></script>
-    <script src="js/custom.js"></script>
+                <!-- Review QR -->
+                <div class="text-center">
+                    <p class="text-green-400 uppercase tracking-wider my-9">Berikan Ulasan</p>
+                    <img src="data:image/png;base64,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"
+                        alt="QR Ulasan Google" class="w-48 mx-auto rounded-lg border-4 border-gray-700" />
+                    <p class="my-4">Atau klik tombol di bawah ini</p>
+                    <a href="https://g.page/r/CTM-9a55NeF4EAE/review" target="_blank"
+                        class="bg-green-600 hover:bg-green-700 px-8 py-4 rounded-full font-semibold inline-block">
+                        <i class="fas fa-paper-plane mr-2"></i> Berikan Ulasan
+                    </a>
+                </div>
+            </div>
+
+            
+            <div class="text-center md:text-left mt-12 pt-8 border-t border-gray-800">
+  <div class="flex flex-col md:flex-row md:justify-between items-center gap-3 text-sm md:text-base">
+    <p>
+      2025 © <a href="#" class="text-green-400 font-bold hover:underline transition">Magic Coffee</a>
+    </p>
+    <p class="text-gray-400">
+      Powered by <a href="https://nokensoft.com" target="_blank" class="text-green-400 font-bold hover:underline transition">Nokensoft.com</a>
+    </p>
+  </div>
+</div>
+
+
+        </div>
+    </footer>
 
 
 
 
+    <!-- Tombol Floating Instagram & WhatsApp - Kanan Bawah -->
+    <div class="fixed bottom-6 right-6 z-50 flex flex-col items-center gap-4 group">
+        <!-- Instagram -->
+        <a href="https://www.instagram.com/magiccoffee.shop/" target="_blank"
+            class="flex items-center justify-center w-14 h-14 md:w-16 md:h-16 bg-gradient-to-br from-purple-600 to-pink-600 hover:from-purple-500 hover:to-pink-500 text-white rounded-full shadow-2xl hover:shadow-purple-500/50 transition-all duration-300 hover:scale-110">
+            <i class="fab fa-instagram text-3xl md:text-4xl"></i>
+        </a>
 
+        <!-- WhatsApp -->
+        <a href="https://wa.link/qrmijh" target="_blank"
+            class="flex items-center justify-center w-14 h-14 md:w-16 md:h-16 bg-green-600 hover:bg-green-500 text-white rounded-full shadow-2xl hover:shadow-green-500/50 transition-all duration-300 hover:scale-110">
+            <i class="fab fa-whatsapp text-3xl md:text-4xl"></i>
+        </a>
 
+        <!-- Tooltip Instagram (muncul saat hover di desktop) -->
+        <span
+            class="absolute right-20 top-8 bg-black/90 text-white px-4 py-2 rounded-lg text-sm whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
+            Follow @magiccoffee.shop
+        </span>
 
-
-
+        <!-- Tooltip WhatsApp (muncul saat hover di desktop) -->
+        <span
+            class="absolute right-20 bottom-8 bg-black/90 text-white px-4 py-2 rounded-lg text-sm whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
+            Hubungi via WhatsApp
+        </span>
+    </div>
 
 
 
 
     <script src="js/menuData.js"></script>
 
+    <!-- Script: Load Menu - Judul Lebih Besar di Mobile -->
     <script>
         function loadAllMenus() {
             const container = document.getElementById('menu-container');
-
-            // Kosongkan container (menghapus text loading)
             container.innerHTML = '';
 
             if (typeof menuData === 'undefined') {
-                console.error("menuData tidak ditemukan. Pastikan js/menuData.js termuat.");
-                container.innerHTML = '<div class="col-12 text-center text-white">Gagal memuat data menu.</div>';
+                container.innerHTML = `<div class="col-span-2 text-center text-xl">Gagal memuat menu.</div>`;
                 return;
             }
 
-            // Loop setiap kategori dalam menuData
             menuData.forEach(data => {
-                // 1. Generate HTML untuk Item List
                 let itemsHTML = '';
 
                 data.items.forEach(item => {
-                    // Logic Badge
-                    const badgeHtml = item.badge
-                        ? `<span class="badge ms-3 bg-success text-dark">${item.badge}</span>`
+                    const badge = item.badge
+                        ? `<span class="ml-3 px-3 py-1 bg-yellow-600 text-black text-xs font-bold rounded-full">${item.badge}</span>`
                         : '';
 
-                    // Logic Harga (Coret/Diskon)
-                    let priceHtml = '';
-                    if (item.original_price) {
-                        priceHtml = `
-                        <strong class="text-white ms-auto text-decoration-line-through text-white-50 me-2">${item.original_price}</strong>
-                        <strong class="text-white">${item.price}</strong>
-                    `;
-                    } else {
-                        priceHtml = `<strong class="ms-auto text-white">${item.price}</strong>`;
-                    }
+                    // Gambar kecil untuk desktop
+                    const imageDesktopHTML = item.image
+                        ? `<img src="${item.image}" alt="${item.name}" class="w-32 h-32 object-cover rounded-xl flex-shrink-0">`
+                        : `<div class="w-32 h-32 bg-gray-700 rounded-xl flex-shrink-0"></div>`;
 
-                    // Gabungkan item ke template baris
+                    // Gambar full untuk mobile
+                    const imageMobileHTML = item.image
+                        ? `<img src="${item.image}" alt="${item.name}" class="w-full h-64 object-cover rounded-xl">`
+                        : `<div class="w-full h-64 bg-gray-700 rounded-xl"></div>`;
+
+                    let priceHTML = item.original_price
+                        ? `<del class="text-gray-500 mr-3">Rp ${item.original_price}</del><strong class="text-2xl">Rp ${item.price}</strong>`
+                        : `<strong class="text-2xl">Rp ${item.price}</strong>`;
+
                     itemsHTML += `
-                    <div class="menu-block my-4">
-                        <div class="d-flex align-items-center">
-                            <h6 class="text-white mb-0">
-                                ${item.name}
-                                ${badgeHtml}
-                            </h6>
-                            <span class="underline border-bottom border-white border-opacity-25 mx-3 flex-grow-1"></span>
-                            ${priceHtml}
-                        </div>
-                        <div class="mt-2">
-                            <small class="text-white-50">${item.description}</small>
-                        </div>
-                    </div>
-                `;
+          <!-- Box Rounded Terpisah untuk Setiap Item -->
+          <div class="bg-gray-800/60 backdrop-blur-sm rounded-2xl p-6 md:p-8 shadow-lg hover:shadow-xl transition-shadow">
+            <!-- Mobile: Gambar full di atas -->
+            <div class="block md:hidden mb-6">
+              ${imageMobileHTML}
+            </div>
+
+            <!-- Layout utama -->
+            <div class="flex flex-col md:flex-row items-start gap-6 md:gap-8">
+              <!-- Gambar kecil di kiri (desktop only) -->
+              <div class="hidden md:block">
+                ${imageDesktopHTML}
+              </div>
+
+              <!-- Teks dan harga -->
+              <div class="flex-1 text-center md:text-left">
+                <!-- PERBAIKAN: Judul lebih besar & bold di mobile -->
+                <h4 class="text-4xl md:text-2xl lg:text-3xl font-extrabold tracking-tight flex flex-col md:flex-row items-center md:items-start justify-center md:justify-start gap-2 text-green-500">
+                  ${item.name} ${badge}
+                </h4>
+
+                <p class="text-gray-400 mt-4 leading-relaxed text-base md:text-lg">
+                  ${item.description || ''}
+                </p>
+                <div class="mt-6 text-gray-400">
+                  ${priceHTML}
+                </div>
+              </div>
+            </div>
+          </div>
+        `;
                 });
 
-                // 2. Bungkus Item List dengan Header & Kolom Utama
-                const columnHTML = `
-                <div class="col-lg-6 col-12 mb-5">
-                    <div class="menu-block-wrap p-4 h-100">
-                        
-                        <div class="text-center mb-4 pb-2">
-                            <em class="text-secondary d-block mb-1">${data.subtitle}</em>
-                            <h4 class="text-white text-uppercase">${data.category}</h4>
-                        </div>
+                const column = `
+        <div class="bg-gray-900/70 backdrop-blur-sm rounded-3xl p-8 md:p-12 shadow-2xl border border-gray-800">
+          <div class="text-center mb-12">
+            <p class="text-yellow-500 uppercase tracking-wider text-sm font-medium">${data.subtitle}</p>
+            <h3 class="text-3xl md:text-4xl font-bold mt-3">${data.category}</h3>
+          </div>
+          <!-- Grid box-box item menu -->
+          <div class="grid gap-8">
+            ${itemsHTML}
+          </div>
+        </div>
+      `;
 
-                        <div class="menu-items-list">
-                            ${itemsHTML}
-                        </div>
-
-                    </div>
-                </div>
-            `;
-
-                // 3. Masukkan ke Container Utama
-                container.insertAdjacentHTML('beforeend', columnHTML);
+                container.insertAdjacentHTML('beforeend', column);
             });
         }
 
-        // Jalankan saat load
         document.addEventListener('DOMContentLoaded', loadAllMenus);
     </script>
+
+
+
+
+
+
+    <!-- Script: Hero Background Slider -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const sliderContainer = document.getElementById('hero-slider');
+            const slides = [];
+            for (let i = 1; i <= 12; i++) {
+                slides.push(`images/slides/magic-coffee-slide-${i}.png`);
+            }
+
+            slides.forEach((src, index) => {
+                const div = document.createElement('div');
+                div.className = 'hero-slide';
+                div.style.backgroundImage = `url('${src}')`;
+                div.style.animationDelay = `${index * 10}s`;
+                if (index === 0) div.classList.add('active');
+                sliderContainer.appendChild(div);
+            });
+
+            let current = 0;
+            setInterval(() => {
+                const allSlides = sliderContainer.querySelectorAll('.hero-slide');
+                allSlides[current].classList.remove('active');
+                current = (current + 1) % slides.length;
+                allSlides[current].classList.add('active');
+            }, 10000);
+        });
+    </script>
+
+
 </body>
 
 </html>
