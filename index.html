@@ -1,4 +1,5 @@
 <html class="scroll-smooth">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -18,7 +19,7 @@
     <meta property="og:title" content="Magic Coffee Sentani | Kopi Asli Papua Penuh Kehangatan" />
     <meta property="og:description"
         content="Coffee shop santai di Sentani yang menyajikan kopi autentik dari Wamena, Pegunungan Bintang, hingga Paniai. Tempat nongkrong anak muda Papua yang penuh cerita dan kebersamaan." />
-    <meta property="og:image" content="https://magiccoffee.shop/images/magic-coffee-cover.png" />
+    <meta property="og:image" content="https://nokensoft.github.io/magic-coffee-official-website/images/magic-coffee-cover.png" />
     <meta property="og:image:alt" content="Magic Coffee Sentani - Kopi Asli Papua dengan Suasana Hangat" />
     <meta property="og:url" content="https://magiccoffee.shop/" />
     <meta property="og:type" content="website" />
@@ -30,7 +31,7 @@
     <meta name="twitter:title" content="Magic Coffee Sentani | Kopi Asli Papua Penuh Kehangatan" />
     <meta name="twitter:description"
         content="Coffee shop santai di Sentani yang menyajikan kopi autentik dari Wamena, Pegunungan Bintang, hingga Paniai. Tempat nongkrong anak muda Papua yang penuh cerita dan kebersamaan." />
-    <meta name="twitter:image" content="https://magiccoffee.shop/images/magic-coffee-cover.png" />
+    <meta name="twitter:image" content="https://nokensoft.github.io/magic-coffee-official-website/images/magic-coffee-cover.png" />
     <meta name="twitter:image:alt" content="Magic Coffee Sentani - Kopi Asli Papua dengan Suasana Hangat" />
 
     <!-- JSON-LD Structured Data -->
@@ -206,8 +207,8 @@
                             Kami</a>
                     </li>
                     <li>
-                        <a href="#gallery" @click="open=false"
-                            class="block py-2 hover:text-green-400 transition">Galeri Foto</a>
+                        <a href="#gallery" @click="open=false" class="block py-2 hover:text-green-400 transition">Galeri
+                            Foto</a>
                     </li>
                     <li>
                         <a href="#footer" @click="open=false"
@@ -263,7 +264,8 @@
 
 
     <!-- About Section -->
-    <section id="about" class="py-20 md:py-32 lg:py-40 overflow-hidden" style="padding-top: 200px;padding-bottom: 200px;">
+    <section id="about" class="py-20 md:py-32 lg:py-40 overflow-hidden"
+        style="padding-top: 200px;padding-bottom: 200px;">
         <!-- Background (jika masih pakai about-bg) -->
         <div class="about-bg absolute inset-0 -z-10"></div>
 
@@ -326,21 +328,27 @@
 
 
 
-    <!-- Menu Section -->
-    <section id="menu" class="bg-gray-800" style="padding-top: 200px;padding-bottom: 200px;">
-        <div class="container mx-auto px-6">
-            <div class="text-center mb-12">
-                <p class="text-green-400 uppercase tracking-wider leading-loose md:leading-loose lg:leading-loose">Pilihan Kami</p>
-                <h2 class="text-4xl font-bold mb-8 leading-loose md:leading-loose lg:leading-loose">Menu Tersedia</h2>
-            </div>
+<!-- Menu Section -->
+<section id="menu" class="py-20 bg-gray-800">
+  <div class="container mx-auto px-6">
+    <div class="text-center mb-12">
+      <p class="text-green-400 uppercase tracking-wider">Pilihan Kami</p>
+      <h2 class="text-4xl font-bold">Menu Tersedia</h2>
+    </div>
 
-            <div id="menu-container" class="grid md:grid-cols-2 gap-8">
-                <div class="text-center py-20">
-                    <p class="text-xl">Memuat menu lezat...</p>
-                </div>
-            </div>
-        </div>
-    </section>
+    <!-- Tombol Filter Kategori -->
+    <div class="flex flex-wrap justify-center gap-4 mb-12">
+      <!-- Tombol kategori akan di-inject oleh JS -->
+      <div id="category-buttons"></div>
+    </div>
+
+    <!-- Container Menu -->
+    <div id="menu-container" class="flex flex-col items-center gap-16"></div>
+    
+      <!-- Menu akan dimuat di sini -->
+    </div>
+  </div>
+</section>
 
 
 
@@ -351,7 +359,7 @@
     <!-- Produk Section - Highlight Roasted Coffee Beans -->
     <section id="produk" style="padding-top: 200px;padding-bottom: 200px;">
 
-        
+
         <div class="container mx-auto px-6">
             <!-- Judul Section -->
             <div class="text-center mb-16">
@@ -403,7 +411,7 @@
                                 class="inline-flex items-center bg-green-600 hover:bg-green-500 text-white px-8 py-4 rounded-full text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300 text-center">
                                 <div>
                                     <i class="fab fa-whatsapp mr-3 text-xl"></i>
-                                Pesan Sekarang via WhatsApp
+                                    Pesan Sekarang via WhatsApp
                                 </div>
                             </a>
                         </div>
@@ -417,46 +425,47 @@
 
 
 
-<!-- Gallery Section -->
-<section id="gallery" class="py-20 bg-gray-700" style="padding-top: 100px; padding-bottom: 100px;">
-  <div class="container mx-auto px-6">
-    <!-- Judul & Deskripsi -->
-    <div class="text-center mb-12">
-      <p class="text-green-400 uppercase tracking-wider mb-3">Momen & Suasana</p>
-      <h2 class="text-4xl md:text-5xl font-bold mb-6">Galeri Foto Magic Coffee</h2>
-      <p class="text-gray-300 text-lg md:text-xl max-w-3xl mx-auto leading-relaxed px-4">
-        Abadikan kehangatan setiap cangkir, senyum pengunjung, serta nuansa sederhana khas Papua di Magic Coffee Sentani. 
-        Setiap foto adalah cerita tentang kopi, kebersamaan, dan tanah yang kami cintai.
-      </p>
-    </div>
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-20 bg-gray-700" style="padding-top: 100px; padding-bottom: 100px;">
+        <div class="container mx-auto px-6">
+            <!-- Judul & Deskripsi -->
+            <div class="text-center mb-12">
+                <p class="text-green-400 uppercase tracking-wider mb-3">Momen & Suasana</p>
+                <h2 class="text-4xl md:text-5xl font-bold mb-6">Galeri Foto Magic Coffee</h2>
+                <p class="text-gray-300 text-lg md:text-xl max-w-3xl mx-auto leading-relaxed px-4">
+                    Abadikan kehangatan setiap cangkir, senyum pengunjung, serta nuansa sederhana khas Papua di Magic
+                    Coffee Sentani.
+                    Setiap foto adalah cerita tentang kopi, kebersamaan, dan tanah yang kami cintai.
+                </p>
+            </div>
 
-    <!-- Grid Galeri: 1 kolom di mobile, 4 kolom di desktop -->
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 md:gap-8">
-      <img src="./images/galeri/magic-coffee-galeri-7.png" alt="Mahkota khas Papua"
-           class="rounded-xl shadow-2xl w-full object-cover aspect-square hover:scale-105 transition-transform duration-500" />
-      <img src="./images/galeri/magic-coffee-galeri-9.png" alt="Dekorasi khas Papua"
-           class="rounded-xl shadow-2xl w-full object-cover aspect-square hover:scale-105 transition-transform duration-500" />
-      <img src="./images/galeri/magic-coffee-galeri-1.png" alt="Barista menyeduh kopi"
-           class="rounded-xl shadow-2xl w-full object-cover aspect-square hover:scale-105 transition-transform duration-500" />
-      <img src="./images/galeri/magic-coffee-galeri-8.png" alt="Dekorasi khas Papua"
-           class="rounded-xl shadow-2xl w-full object-cover aspect-square hover:scale-105 transition-transform duration-500" />
-      <img src="./images/galeri/magic-coffee-galeri-3.png" alt="Barista menyeduh kopi"
-           class="rounded-xl shadow-2xl w-full object-cover aspect-square hover:scale-105 transition-transform duration-500" />
-      <img src="./images/galeri/magic-coffee-galeri-4.png" alt="Suasana cafe"
-           class="rounded-xl shadow-2xl w-full object-cover aspect-square hover:scale-105 transition-transform duration-500" />
-      <img src="./images/galeri/magic-coffee-galeri-5.png" alt="Logo Magic Coffee"
-           class="rounded-xl shadow-2xl w-full object-cover aspect-square hover:scale-105 transition-transform duration-500" />
-      <img src="./images/galeri/magic-coffee-galeri-10.png" alt="Dekorasi khas Papua"
-           class="rounded-xl shadow-2xl w-full object-cover aspect-square hover:scale-105 transition-transform duration-500" />
-      <img src="./images/galeri/magic-coffee-galeri-11.png" alt="Dekorasi khas Papua"
-           class="rounded-xl shadow-2xl w-full object-cover aspect-square hover:scale-105 transition-transform duration-500" />
-      <img src="./images/galeri/magic-coffee-galeri-6.png" alt="Suasana coffee shop"
-           class="rounded-xl shadow-2xl w-full object-cover aspect-square hover:scale-105 transition-transform duration-500" />
-      <img src="./images/galeri/magic-coffee-galeri-2.png" alt="Barista menyeduh kopi"
-           class="rounded-xl shadow-2xl w-full object-cover aspect-square hover:scale-105 transition-transform duration-500" />
-    </div>
-  </div>
-</section>
+            <!-- Grid Galeri: 1 kolom di mobile, 4 kolom di desktop -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 md:gap-8">
+                <img src="./images/galeri/magic-coffee-galeri-7.png" alt="Mahkota khas Papua"
+                    class="rounded-xl shadow-2xl w-full object-cover aspect-square hover:scale-105 transition-transform duration-500" />
+                <img src="./images/galeri/magic-coffee-galeri-9.png" alt="Dekorasi khas Papua"
+                    class="rounded-xl shadow-2xl w-full object-cover aspect-square hover:scale-105 transition-transform duration-500" />
+                <img src="./images/galeri/magic-coffee-galeri-1.png" alt="Barista menyeduh kopi"
+                    class="rounded-xl shadow-2xl w-full object-cover aspect-square hover:scale-105 transition-transform duration-500" />
+                <img src="./images/galeri/magic-coffee-galeri-8.png" alt="Dekorasi khas Papua"
+                    class="rounded-xl shadow-2xl w-full object-cover aspect-square hover:scale-105 transition-transform duration-500" />
+                <img src="./images/galeri/magic-coffee-galeri-3.png" alt="Barista menyeduh kopi"
+                    class="rounded-xl shadow-2xl w-full object-cover aspect-square hover:scale-105 transition-transform duration-500" />
+                <img src="./images/galeri/magic-coffee-galeri-4.png" alt="Suasana cafe"
+                    class="rounded-xl shadow-2xl w-full object-cover aspect-square hover:scale-105 transition-transform duration-500" />
+                <img src="./images/galeri/magic-coffee-galeri-5.png" alt="Logo Magic Coffee"
+                    class="rounded-xl shadow-2xl w-full object-cover aspect-square hover:scale-105 transition-transform duration-500" />
+                <img src="./images/galeri/magic-coffee-galeri-10.png" alt="Dekorasi khas Papua"
+                    class="rounded-xl shadow-2xl w-full object-cover aspect-square hover:scale-105 transition-transform duration-500" />
+                <img src="./images/galeri/magic-coffee-galeri-11.png" alt="Dekorasi khas Papua"
+                    class="rounded-xl shadow-2xl w-full object-cover aspect-square hover:scale-105 transition-transform duration-500" />
+                <img src="./images/galeri/magic-coffee-galeri-6.png" alt="Suasana coffee shop"
+                    class="rounded-xl shadow-2xl w-full object-cover aspect-square hover:scale-105 transition-transform duration-500" />
+                <img src="./images/galeri/magic-coffee-galeri-2.png" alt="Barista menyeduh kopi"
+                    class="rounded-xl shadow-2xl w-full object-cover aspect-square hover:scale-105 transition-transform duration-500" />
+            </div>
+        </div>
+    </section>
 
 
 
@@ -543,17 +552,18 @@
                 </div>
             </div>
 
-            
+
             <div class="text-center md:text-left mt-12 pt-8 border-t border-gray-800">
-  <div class="flex flex-col md:flex-row md:justify-between items-center gap-3 text-sm md:text-base">
-    <p>
-      2025 © <a href="#" class="text-green-400 font-bold hover:underline transition">Magic Coffee</a>
-    </p>
-    <p class="text-gray-400">
-      Powered by <a href="https://nokensoft.com" target="_blank" class="text-green-400 font-bold hover:underline transition">Nokensoft.com</a>
-    </p>
-  </div>
-</div>
+                <div class="flex flex-col md:flex-row md:justify-between items-center gap-3 text-sm md:text-base">
+                    <p>
+                        2025 © <a href="#" class="text-green-400 font-bold hover:underline transition">Magic Coffee</a>
+                    </p>
+                    <p class="text-gray-400">
+                        Powered by <a href="https://nokensoft.com" target="_blank"
+                            class="text-green-400 font-bold hover:underline transition">Nokensoft.com</a>
+                    </p>
+                </div>
+            </div>
 
 
         </div>
@@ -592,94 +602,128 @@
 
 
 
-    <script src="js/menuData.js"></script>
+<script src="js/menuData.js"></script>
 
-    <!-- Script: Load Menu - Judul Lebih Besar di Mobile -->
-    <script>
-        function loadAllMenus() {
-            const container = document.getElementById('menu-container');
-            container.innerHTML = '';
+<script>
+  let allMenuData = [];
 
-            if (typeof menuData === 'undefined') {
-                container.innerHTML = `<div class="col-span-2 text-center text-xl">Gagal memuat menu.</div>`;
-                return;
-            }
+  function renderMenuItems(filteredData) {
+    const container = document.getElementById('menu-container');
+    container.innerHTML = '';
 
-            menuData.forEach(data => {
-                let itemsHTML = '';
+    if (filteredData.length === 0) {
+      container.innerHTML = `<div class="col-span-2 text-center text-xl text-gray-400 py-20">Tidak ada menu dalam kategori ini.</div>`;
+      return;
+    }
 
-                data.items.forEach(item => {
-                    const badge = item.badge
-                        ? `<span class="ml-3 px-3 py-1 bg-yellow-600 text-black text-xs font-bold rounded-full">${item.badge}</span>`
-                        : '';
+    filteredData.forEach(data => {
+      let itemsHTML = '';
 
-                    // Gambar kecil untuk desktop
-                    const imageDesktopHTML = item.image
-                        ? `<img src="${item.image}" alt="${item.name}" class="w-32 h-32 object-cover rounded-xl flex-shrink-0">`
-                        : `<div class="w-32 h-32 bg-gray-700 rounded-xl flex-shrink-0"></div>`;
+      data.items.forEach(item => {
+        const badge = item.badge
+          ? `<span class="ml-3 px-3 py-1 bg-yellow-600 text-black text-xs font-bold rounded-full">${item.badge}</span>`
+          : '';
 
-                    // Gambar full untuk mobile
-                    const imageMobileHTML = item.image
-                        ? `<img src="${item.image}" alt="${item.name}" class="w-full h-64 object-cover rounded-xl">`
-                        : `<div class="w-full h-64 bg-gray-700 rounded-xl"></div>`;
+        const imageDesktopHTML = item.image
+          ? `<img src="${item.image}" alt="${item.name}" class="w-32 h-32 object-cover rounded-xl shadow-xl flex-shrink-0">`
+          : `<div class="w-32 h-32 bg-gray-700 rounded-xl flex-shrink-0"></div>`;
 
-                    let priceHTML = item.original_price
-                        ? `<del class="text-gray-500 mr-3">Rp ${item.original_price}</del><strong class="text-2xl">Rp ${item.price}</strong>`
-                        : `<strong class="text-2xl">Rp ${item.price}</strong>`;
+        const imageMobileHTML = item.image
+          ? `<img src="${item.image}" alt="${item.name}" class="w-full h-64 object-cover rounded-xl shadow-xl">`
+          : `<div class="w-full h-64 bg-gray-700 rounded-xl"></div>`;
 
-                    itemsHTML += `
-          <!-- Box Rounded Terpisah untuk Setiap Item -->
+        let priceHTML = item.original_price
+          ? `<del class="text-gray-500 mr-3">Rp ${item.original_price}</del><strong class="text-2xl">Rp ${item.price}</strong>`
+          : `<strong class="text-2xl">Rp ${item.price}</strong>`;
+
+        itemsHTML += `
           <div class="bg-gray-800/60 backdrop-blur-sm rounded-2xl p-6 md:p-8 shadow-lg hover:shadow-xl transition-shadow">
-            <!-- Mobile: Gambar full di atas -->
-            <div class="block md:hidden mb-6">
-              ${imageMobileHTML}
-            </div>
-
-            <!-- Layout utama -->
+            <div class="block md:hidden mb-6">${imageMobileHTML}</div>
             <div class="flex flex-col md:flex-row items-start gap-6 md:gap-8">
-              <!-- Gambar kecil di kiri (desktop only) -->
-              <div class="hidden md:block">
-                ${imageDesktopHTML}
-              </div>
-
-              <!-- Teks dan harga -->
+              <div class="hidden md:block">${imageDesktopHTML}</div>
               <div class="flex-1 text-center md:text-left">
-                <!-- PERBAIKAN: Judul lebih besar & bold di mobile -->
                 <h4 class="text-4xl md:text-2xl lg:text-3xl font-extrabold tracking-tight flex flex-col md:flex-row items-center md:items-start justify-center md:justify-start gap-2 text-green-500">
                   ${item.name} ${badge}
                 </h4>
-
-                <p class="text-gray-400 mt-4 leading-relaxed text-base md:text-lg">
-                  ${item.description || ''}
-                </p>
-                <div class="mt-6 text-gray-400">
-                  ${priceHTML}
-                </div>
+                <p class="text-gray-400 mt-4 leading-relaxed text-base md:text-lg">${item.description || ''}</p>
+                <div class="mt-6 text-gray-400">${priceHTML}</div>
               </div>
             </div>
           </div>
         `;
-                });
+      });
 
-                const column = `
-        <div class="bg-gray-900/70 backdrop-blur-sm rounded-3xl p-8 md:p-12 shadow-2xl border border-gray-800">
-          <div class="text-center mb-12">
-            <p class="text-yellow-500 uppercase tracking-wider text-sm font-medium">${data.subtitle}</p>
-            <h3 class="text-3xl md:text-4xl font-bold mt-3">${data.category}</h3>
-          </div>
-          <!-- Grid box-box item menu -->
-          <div class="grid gap-8">
-            ${itemsHTML}
-          </div>
-        </div>
-      `;
+      const column = `
+  <div class="w-full max-w-4xl mx-auto"> <!-- 1 kolom penuh tapi terbatas lebarnya & rata tengah -->
+    <div class="bg-gray-900/70 backdrop-blur-sm rounded-3xl p-8 md:p-12 shadow-2xl border border-gray-800">
+      <div class="text-center mb-12">
+        <p class="text-yellow-500 uppercase tracking-wider text-sm font-medium">${data.subtitle}</p>
+        <h3 class="text-3xl md:text-4xl font-bold mt-3">${data.category}</h3>
+      </div>
+      <div class="grid gap-8">
+        ${itemsHTML}
+      </div>
+    </div>
+  </div>
+`;
 
-                container.insertAdjacentHTML('beforeend', column);
-            });
-        }
+      container.insertAdjacentHTML('beforeend', column);
+    });
+  }
 
-        document.addEventListener('DOMContentLoaded', loadAllMenus);
-    </script>
+  function loadAllMenus() {
+    if (typeof menuData === 'undefined') {
+      document.getElementById('menu-container').innerHTML = `<div class="col-span-2 text-center text-xl">Gagal memuat menu.</div>`;
+      return;
+    }
+
+    allMenuData = menuData;
+
+    const categoryButtonsContainer = document.getElementById('category-buttons');
+    categoryButtonsContainer.innerHTML = ''; // Kosongkan dulu
+
+    const categories = [...new Set(menuData.map(item => item.category))];
+
+    categories.forEach(cat => {
+      const btn = document.createElement('button');
+      btn.textContent = cat;
+      btn.dataset.category = cat;
+      btn.className = 'filter-btn px-8 py-3 rounded-full font-semibold transition-all bg-gray-700 hover:bg-green-600 text-white';
+      categoryButtonsContainer.appendChild(btn);
+    });
+
+    // Event klik untuk filter
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('bg-green-600'));
+        btn.classList.add('bg-green-600');
+
+        const category = btn.dataset.category;
+        const filtered = allMenuData.filter(item => item.category === category);
+        renderMenuItems(filtered);
+      });
+    });
+
+    // Default: tampilkan hanya "Signature Drink"
+    const defaultCategory = 'Signature Drink'; // Ganti jika nama kategorinya berbeda, misal 'Signature' atau 'Kopi Spesial'
+
+    const defaultData = allMenuData.filter(item => item.category === defaultCategory);
+
+    if (defaultData.length > 0) {
+      renderMenuItems(defaultData);
+      const defaultBtn = document.querySelector(`[data-category="${defaultCategory}"]`);
+      if (defaultBtn) defaultBtn.classList.add('bg-green-600');
+    } else {
+      // Jika tidak ada Signature Drink, tampilkan kategori pertama
+      if (categories.length > 0) {
+        renderMenuItems([allMenuData[0]]);
+        categoryButtonsContainer.querySelector('button').classList.add('bg-green-600');
+      }
+    }
+  }
+
+  document.addEventListener('DOMContentLoaded', loadAllMenus);
+</script>
 
 
 
