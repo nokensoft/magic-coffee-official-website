@@ -177,7 +177,7 @@ const menuData = [
                 "description": "Kentang goreng renyah yang disajikan hangat dengan saus pendamping.",
                 "original_price": null,
                 "badge": null,
-                "image": 'images/menu/vietnam-drip.png'
+                "image": 'images/menu/kentang.png'
             },
             {
                 "name": "Kentang Polos",
@@ -185,7 +185,7 @@ const menuData = [
                 "description": "Kentang goreng sederhana tanpa tambahan, gurih dan renyah.",
                 "original_price": null,
                 "badge": null,
-                "image": 'images/menu/vietnam-drip.png'
+                "image": 'images/menu/kentang-polos.png'
             },
             {
                 "name": "Kentang + Sosis",
@@ -193,7 +193,7 @@ const menuData = [
                 "description": "Kentang goreng renyah dipadukan dengan sosis PNG yang gurih.",
                 "original_price": null,
                 "badge": null,
-                "image": 'images/menu/vietnam-drip.png'
+                "image": 'images/menu/kentang-sosis.png'
             },
             {
                 "name": "Sosis PNG",
@@ -201,7 +201,7 @@ const menuData = [
                 "description": "Sosis khas PNG yang digoreng hingga matang dengan tekstur juicy.",
                 "original_price": null,
                 "badge": null,
-                "image": 'images/menu/vietnam-drip.png'
+                "image": 'images/menu/kentang-sosis.png'
             },
             {
                 "name": "Singkong",
@@ -209,7 +209,7 @@ const menuData = [
                 "description": "Singkong goreng dengan tekstur lembut di dalam dan gurih di luar.",
                 "original_price": null,
                 "badge": null,
-                "image": 'images/menu/vietnam-drip.png'
+                "image": 'images/menu/singkong-goreng.png'
             },
             {
                 "name": "Singkong Sambal",
@@ -217,7 +217,7 @@ const menuData = [
                 "description": "Singkong goreng hangat disajikan dengan sambal pedas khas rumahan.",
                 "original_price": null,
                 "badge": null,
-                "image": 'images/menu/vietnam-drip.png'
+                "image": 'images/menu/singkong-sambal.png'
             },
             {
                 "name": "Singkong Keju",
@@ -225,7 +225,7 @@ const menuData = [
                 "description": "Singkong goreng gurih dengan taburan keju melimpah dan lezat.",
                 "original_price": null,
                 "badge": null,
-                "image": 'images/menu/vietnam-drip.png'
+                "image": 'images/menu/kentang.png'
             },
             {
                 "name": "Pisang Goreng",
@@ -233,7 +233,7 @@ const menuData = [
                 "description": "Pisang goreng manis dan renyah yang pas sebagai teman minum kopi.",
                 "original_price": null,
                 "badge": null,
-                "image": 'images/menu/vietnam-drip.png'
+                "image": 'images/menu/kentang.png'
             },
             {
                 "name": "Pisang Sambal",
@@ -241,7 +241,7 @@ const menuData = [
                 "description": "Pisang goreng manis yang dipadukan dengan sambal pedas-manis.",
                 "original_price": null,
                 "badge": null,
-                "image": 'images/menu/vietnam-drip.png'
+                "image": 'images/menu/kentang.png'
             },
             {
                 "name": "Pisang Coklat Keju",
@@ -249,7 +249,7 @@ const menuData = [
                 "description": "Pisang goreng dengan topping cokelat leleh dan keju parut.",
                 "original_price": null,
                 "badge": null,
-                "image": 'images/menu/vietnam-drip.png'
+                "image": 'images/menu/kentang.png'
             },
             {
                 "name": "Mie Kuah/Goreng",
@@ -257,7 +257,7 @@ const menuData = [
                 "description": "Mie instan pilihan kuah atau goreng yang hangat dan mengenyangkan.",
                 "original_price": null,
                 "badge": null,
-                "image": 'images/menu/vietnam-drip.png'
+                "image": 'images/menu/kentang.png'
             },
             {
                 "name": "Mie Single + Telur",
@@ -265,7 +265,7 @@ const menuData = [
                 "description": "Satu porsi mie dengan tambahan telur untuk rasa yang lebih mantap.",
                 "original_price": null,
                 "badge": null,
-                "image": 'images/menu/vietnam-drip.png'
+                "image": 'images/menu/kentang.png'
             },
             {
                 "name": "Mie Double + Telur",
@@ -273,7 +273,7 @@ const menuData = [
                 "description": "Porsi mie double dengan telur yang mengenyangkan dan nikmat.",
                 "original_price": null,
                 "badge": null,
-                "image": 'images/menu/vietnam-drip.png'
+                "image": 'images/menu/kentang.png'
             },
             {
                 "name": "Mie Komplit",
@@ -281,7 +281,7 @@ const menuData = [
                 "description": "Mie spesial dengan topping lengkap untuk pengalaman makan yang maksimal.",
                 "original_price": null,
                 "badge": null,
-                "image": 'images/menu/vietnam-drip.png'
+                "image": 'images/menu/kentang.png'
             }
         ]
     }
