@@ -1,0 +1,51 @@
+/* Smooth scroll behavior global */
+html {
+    scroll-behavior: smooth;
+}
+
+section[id]:not(#home) {
+    padding-top: 100px;
+    margin-top: -100px;
+}
+
+#home {
+    scroll-margin-top: 0;
+}
+
+/* Animasi zoom hero slider */
+@keyframes zoomInOut {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.15); }
+    100% { transform: scale(1); }
+}
+
+.hero-slide {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+    animation: zoomInOut 10s ease-in-out infinite;
+}
+
+.hero-slide.active {
+    opacity: 1;
+}
+
+/* Hide scrollbar tapi tetap bisa scroll */
+.scrollbar-hide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;     /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+}
+
+/* Additional responsive tweaks */
+@media (max-width: 768px) {
+    .hero-slide {
+        animation-duration: 15s; /* Lebih lambat di mobile */
+    }
+}
