@@ -93,7 +93,7 @@ const menuData = [
                 "description": "Seduhan manual dengan filter paper yang menghasilkan rasa kopi clean, ringan, dan beraroma.",
                 "original_price": null,
                 "badge": null,
-                "image": 'images/menu/vietnam-drip.webp'
+                "image": 'images/menu/v60.webp'
             },
             {
                 "name": "Japanese",
